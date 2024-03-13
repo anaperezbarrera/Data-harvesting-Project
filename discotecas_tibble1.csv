@@ -1,0 +1,533 @@
+event_name,date,start_time,end_time,club_name,entry_name,entry_price,full_date,place,dress_code,address,lat,lon
+ROOTS,11-03-2024,22:00,05:00,La Reserva,ENTRADA GOLD,10€,Lun. 11 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+ROOTS,11-03-2024,22:00,05:00,La Reserva,LISTA GRATIS,Gratis,Lun. 11 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+MONDAYS at Tiffany´s The Club,11-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1€ ANTES DE LA 1:30H,1€,Lun. 11 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+MONDAYS at Tiffany´s The Club,11-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 2x12€,12€,Lun. 11 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+MONDAYS at Tiffany´s The Club,11-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 3x15€,15€,Lun. 11 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+LUNES TEATRO BARCELO,11-03-2024,00:00,06:00,Teatro Barceló,1ST RELEASE,10€,Lun. 11 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+LUNES TEATRO BARCELO,11-03-2024,00:00,06:00,Teatro Barceló,2ND RELEASE,15€,Lun. 11 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+LUNES TEATRO BARCELO,11-03-2024,00:00,06:00,Teatro Barceló,3RD RELEASE,15€,Lun. 11 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+LUNES TEATRO BARCELO,11-03-2024,00:00,06:00,Teatro Barceló,4TH RELEASE,20€,Lun. 11 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+LUNES TEATRO BARCELO,11-03-2024,00:00,06:00,Teatro Barceló,GRATIS HASTA LA 00:30H. DESPUÉS 1x20€ O 2x30€,Gratis,Lun. 11 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+ADDICTED,11-03-2024,00:00,05:30,OPIUM Madrid,General Admission,15€,Lun. 11 Marzo 2024,Opium Madrid,Arreglado,"Calle de José Abascal, 56, 28003 Madrid (Madrid), España",40.43792,-3.69212
+OH MY CLUB PATT,11-03-2024,00:00,05:30,Oh My Club,2 consumiciones x 20€*,20€,Lun. 11 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+OH MY CLUB PATT,11-03-2024,00:00,05:30,Oh My Club,ENTRADA LISTA VIP,20€,Lun. 11 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+JUNGLA,12-03-2024,22:00,05:00,La Reserva,ENTRADA GOLD,10€,Mar. 12 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+JUNGLA,12-03-2024,22:00,05:00,La Reserva,LISTA GRATIS,Gratis,Mar. 12 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+TUESDAY MARIETA x 511,12-03-2024,22:00,02:00,511 EVENTS,TICKETS,12€,Mar. 12 Marzo 2024,Marieta,Casual,"P.º de la Castellana, 44, 28046 Madrid, España",40.4338466,-3.6876406
+TUESDAY MARIETA x 511,12-03-2024,22:00,02:00,511 EVENTS,GUEST LIST,Gratis,Mar. 12 Marzo 2024,Marieta,Casual,"P.º de la Castellana, 44, 28046 Madrid, España",40.4338466,-3.6876406
+Martes Fitz,12-03-2024,00:00,06:00,Fitz Club,2x20€ hasta la 1:30,20€,Mar. 12 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Martes Fitz,12-03-2024,00:00,06:00,Fitz Club,2X30€,30€,Mar. 12 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Martes Fitz,12-03-2024,00:00,06:00,Fitz Club,GRATIS,,Mar. 12 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Martes Fitz,12-03-2024,00:00,06:00,Fitz Club,Taquilla,20€,Mar. 12 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+OH MY CLUB LADIES NIGHT,12-03-2024,00:00,05:30,Oh My Club,2 consumiciones x 20€*,20€,Mar. 12 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+OH MY CLUB LADIES NIGHT,12-03-2024,00:00,05:30,Oh My Club,ENTRADA LISTA VIP,20€,Mar. 12 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+MAD TUESDAYS,12-03-2024,00:00,05:30,OPIUM Madrid,General Admission,20€,Mar. 12 Marzo 2024,Opium Madrid,Arreglado,"Calle de José Abascal, 56, 28003 Madrid (Madrid), España",40.43792,-3.69212
+TUESDAYS SLVJ x 511,12-03-2024,01:00,05:30,511 EVENTS,Special Offer 2x20€,20€,Mar. 12 Marzo 2024,SLVJ,Casual,"C. de Velázquez, 62, 28001 Madrid, España",40.4281142,-3.6835392
+TUESDAYS SLVJ x 511,12-03-2024,01:00,05:30,511 EVENTS,GUESTLIST,Gratis,Mar. 12 Marzo 2024,SLVJ,Casual,"C. de Velázquez, 62, 28001 Madrid, España",40.4281142,-3.6835392
+WEDNESDAY MARIETA x 511,13-03-2024,22:00,02:00,511 EVENTS,TICKETS,12€,Mié. 13 Marzo 2024,Marieta,Casual,"P.º de la Castellana, 44, 28046 Madrid, España",40.4338466,-3.6876406
+WEDNESDAY MARIETA x 511,13-03-2024,22:00,02:00,511 EVENTS,GUEST LIST,Gratis,Mié. 13 Marzo 2024,Marieta,Casual,"P.º de la Castellana, 44, 28046 Madrid, España",40.4338466,-3.6876406
+WEDNESDAY MARIETA x 511,13-03-2024,22:00,02:00,511 EVENTS,Gues List lista gratis hasta las 11 pm,Gratis,Mié. 13 Marzo 2024,Marieta,Casual,"P.º de la Castellana, 44, 28046 Madrid, España",40.4338466,-3.6876406
+TENTACIÓN,13-03-2024,22:00,05:00,La Reserva,ENTRADA GOLD,10€,Mié. 13 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+TENTACIÓN,13-03-2024,22:00,05:00,La Reserva,LISTA GRATIS,Gratis,Mié. 13 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+MIÉRCOLES,13-03-2024,23:45,06:00,Nazca Club,MIERCOLES,15€,Mié. 13 Marzo 2024,Nazca Club,Casual,"C. de Orense, 24, 28020 Madrid, España",40.4515037,-3.6943962
+Miércoles TOY ROOM,13-03-2024,23:45,05:30,Toy Room Madrid,Entrada 1x10€ hasta las 1am,10€,Mié. 13 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Miércoles TOY ROOM,13-03-2024,23:45,05:30,Toy Room Madrid,Entrada 2x15€ hasta la 1:00 AM,15€,Mié. 13 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Miércoles TOY ROOM,13-03-2024,23:45,05:30,Toy Room Madrid,Guest list hasta la 1:00 am,Gratis,Mié. 13 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+WEDNESDAYS at Tiffany´s The Club,13-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1€ ANTES DE LA 1:30,1€,Mié. 13 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+WEDNESDAYS at Tiffany´s The Club,13-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 2x12€,12€,Mié. 13 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+WEDNESDAYS at Tiffany´s The Club,13-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 2x20€,20€,Mié. 13 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+MIÉRCOLES TEATRO BARCELO,13-03-2024,00:00,05:30,Teatro Barceló,1ST RELEASE,10€,Mié. 13 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+MIÉRCOLES TEATRO BARCELO,13-03-2024,00:00,05:30,Teatro Barceló,2ND RELEASE,15€,Mié. 13 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+MIÉRCOLES TEATRO BARCELO,13-03-2024,00:00,05:30,Teatro Barceló,3RD RELEASE,15€,Mié. 13 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+MIÉRCOLES TEATRO BARCELO,13-03-2024,00:00,05:30,Teatro Barceló,2 x 20,20€,Mié. 13 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+MIÉRCOLES TEATRO BARCELO,13-03-2024,00:00,05:30,Teatro Barceló,Lista gratis hasta la 00:30H,Gratis,Mié. 13 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+VERBENA,13-03-2024,00:00,05:30,OPIUM Madrid,General Admission,20€,Mié. 13 Marzo 2024,Opium Madrid,Arreglado,"Calle de José Abascal, 56, 28003 Madrid (Madrid), España",40.43792,-3.69212
+OH MY CLUB MENTIROSA,13-03-2024,00:00,05:30,Oh My Club,2 consumiciones x 20€*,20€,Mié. 13 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+OH MY CLUB MENTIROSA,13-03-2024,00:00,05:30,Oh My Club,ENTRADA LISTA VIP,20€,Mié. 13 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+Miércoles Fitz,13-03-2024,00:00,06:00,Fitz Club,FAST PASS CHICAS,15€,Mié. 13 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Miércoles Fitz,13-03-2024,00:00,06:00,Fitz Club,PROMO 1x15€,15€,Mié. 13 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Miércoles Fitz,13-03-2024,00:00,06:00,Fitz Club,Fast Pass chicos,20€,Mié. 13 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Miércoles Fitz,13-03-2024,00:00,06:00,Fitz Club,Acceso Libre hasta la 1:00,Gratis,Mié. 13 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Miercoles VANDIDO,13-03-2024,00:00,06:00,VANDIDO,Entrada anticipada | 2 copas,20€,Mié. 13 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+Miercoles VANDIDO,13-03-2024,00:00,06:00,VANDIDO,gratis,Gratis,Mié. 13 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+Miercoles VANDIDO,13-03-2024,00:00,06:00,VANDIDO,1 x 20€,20€,Mié. 13 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+MENEO PONZANO,14-03-2024,20:00,05:00,Yatengoplan,LISTAS,Gratis,Jue. 14 Marzo 2024,Meneo,Arreglado,"Calle de Ponzano, 34, 28003 Madrid (Madrid), España",40.43932,-3.69915
+AFTERWORK BONDED CLUB,14-03-2024,20:00,01:00,BONDED CLUB,ANTICIPADA | 1 COPA,15€,Jue. 14 Marzo 2024,BONDED CLUB,Casual,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+AFTERWORK BONDED CLUB,14-03-2024,20:00,01:00,BONDED CLUB,Afterwork - Lista gratis hasta 22:00,Gratis,Jue. 14 Marzo 2024,BONDED CLUB,Casual,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+GOLDEN HOUR,14-03-2024,22:00,05:00,La Reserva,ENTRADA GOLD,10€,Jue. 14 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+GOLDEN HOUR,14-03-2024,22:00,05:00,La Reserva,LISTA GRATIS,Gratis,Jue. 14 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+JUEVES PERRACHICA x 511,14-03-2024,22:00,02:00,511 EVENTS,511 GUEST LIST,Gratis,Jue. 14 Marzo 2024,Perrachica,Casual,"C. de Eloy Gonzalo, 10, 28010 Madrid, España",40.4336358,-3.7029795
+KARAOKE PANDA SingStar - JUEVES,14-03-2024,22:00,05:00,Panda Singstar,1x15€ ENTRADA,15€,Jue. 14 Marzo 2024,Panda Singstar,Casual,"Paseo de la Castellana, 118, 28046 Madrid (Madrid), España",40.44824,-3.69038
+KARAOKE PANDA SingStar - JUEVES,14-03-2024,22:00,05:00,Panda Singstar,2x20€ ENTRADA,20€,Jue. 14 Marzo 2024,Panda Singstar,Casual,"Paseo de la Castellana, 118, 28046 Madrid (Madrid), España",40.44824,-3.69038
+KARAOKE PANDA SingStar - JUEVES,14-03-2024,22:00,05:00,Panda Singstar,Entrada libre,Gratis,Jue. 14 Marzo 2024,Panda Singstar,Casual,"Paseo de la Castellana, 118, 28046 Madrid (Madrid), España",40.44824,-3.69038
+BZZN club at Toy Room,14-03-2024,23:45,05:30,Toy Room Madrid,TOY PASS,20€,Jue. 14 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+BZZN club at Toy Room,14-03-2024,23:45,05:30,Toy Room Madrid,GUESTLIST,Gratis,Jue. 14 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+CATS Jueves 14Marzo BARRA LIBRE COPAS,14-03-2024,23:45,05:30,CATS MADRID,EARLY BIRD,10€,Jue. 14 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+CATS Jueves 14Marzo BARRA LIBRE COPAS,14-03-2024,23:45,05:30,CATS MADRID,1ST RELEASE,12€,Jue. 14 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+CATS Jueves 14Marzo BARRA LIBRE COPAS,14-03-2024,23:45,05:30,CATS MADRID,2ND RELEASE,15€,Jue. 14 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+CATS Jueves 14Marzo BARRA LIBRE COPAS,14-03-2024,23:45,05:30,CATS MADRID,3RD RELEASE,18€,Jue. 14 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+CATS Jueves 14Marzo BARRA LIBRE COPAS,14-03-2024,23:45,05:30,CATS MADRID,4TH RELEASE,20€,Jue. 14 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+JUEVES - ICE,14-03-2024,23:45,06:00,Nazca Club,Entrada General,15€,Jue. 14 Marzo 2024,Nazca Club,Casual,"C. de Orense, 24, 28020 Madrid, España",40.4515037,-3.6943962
+Jueves Commodoro Live Q2,14-03-2024,00:00,06:00,Bardot,1 TANDA 2x20€,20€,Jue. 14 Marzo 2024,Bardot,Arreglado,"Calle de Joaquín Costa, 29, 28002 Madrid (Madrid), España",40.44613,-3.68599
+Jueves Commodoro Live Q2,14-03-2024,00:00,06:00,Bardot,2 TANDA 2x22€,22€,Jue. 14 Marzo 2024,Bardot,Arreglado,"Calle de Joaquín Costa, 29, 28002 Madrid (Madrid), España",40.44613,-3.68599
+Jueves Commodoro Live Q2,14-03-2024,00:00,06:00,Bardot,ÚLTIMA TANDA 2x25€,25€,Jue. 14 Marzo 2024,Bardot,Arreglado,"Calle de Joaquín Costa, 29, 28002 Madrid (Madrid), España",40.44613,-3.68599
+Jueves Commodoro Live Q2,14-03-2024,00:00,06:00,Bardot,QRS CHICAS GRATIS,Gratis,Jue. 14 Marzo 2024,Bardot,Arreglado,"Calle de Joaquín Costa, 29, 28002 Madrid (Madrid), España",40.44613,-3.68599
+TREMENDO MAMONEO,14-03-2024,00:00,05:00,Copérnico The Club,Entrada anticipada,15€,Jue. 14 Marzo 2024,Copernico,Arreglado,"Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",40.43525,-3.71368
+TREMENDO MAMONEO,14-03-2024,00:00,05:00,Copérnico The Club,Entrada con 2 consumiciones,20€,Jue. 14 Marzo 2024,Copernico,Arreglado,"Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",40.43525,-3.71368
+TREMENDO MAMONEO,14-03-2024,00:00,05:00,Copérnico The Club,LISTA GRATIS,Gratis,Jue. 14 Marzo 2024,Copernico,Arreglado,"Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",40.43525,-3.71368
+LE SECRET,14-03-2024,00:00,05:30,LIBERATA,Entrada + 2 COPAS,15€,Jue. 14 Marzo 2024,LIBERATA,Casual,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+LE SECRET,14-03-2024,00:00,05:30,LIBERATA,ENTRADA + 1 COPA,18€,Jue. 14 Marzo 2024,LIBERATA,Casual,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+LE SECRET,14-03-2024,00:00,05:30,LIBERATA,ENTRADA + 2 CONSUMICIONES,20€,Jue. 14 Marzo 2024,LIBERATA,Casual,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+LE SECRET,14-03-2024,00:00,05:30,LIBERATA,FREE HASTA LA 1:00,Gratis,Jue. 14 Marzo 2024,LIBERATA,Casual,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+PANDA JUEVES - BAMBOO,14-03-2024,00:00,06:00,PANDA CLUB,1 x 15€,15€,Jue. 14 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA JUEVES - BAMBOO,14-03-2024,00:00,06:00,PANDA CLUB,CONCIERTO,15€,Jue. 14 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA JUEVES - BAMBOO,14-03-2024,00:00,06:00,PANDA CLUB,2 x 20€,20€,Jue. 14 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA JUEVES - BAMBOO,14-03-2024,00:00,06:00,PANDA CLUB,GRATIS,Gratis,Jue. 14 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA JUEVES - BAMBOO,14-03-2024,00:00,06:00,PANDA CLUB,TAQUILLA,,Jue. 14 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+EXXCLUSIVE ROOM,14-03-2024,00:00,05:30,OPIUM Madrid,General Admission,20€,Jue. 14 Marzo 2024,Opium Madrid,Arreglado,"Calle de José Abascal, 56, 28003 Madrid (Madrid), España",40.43792,-3.69212
+JUEVES MON METE TU BOTELLA,14-03-2024,00:00,06:00,Sala MON,ENTRADA CON 2 COPAS,12€,Jue. 14 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+JUEVES MON METE TU BOTELLA,14-03-2024,00:00,06:00,Sala MON,ENTRADA CON 2 COPAS,15€,Jue. 14 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+JUEVES MON METE TU BOTELLA,14-03-2024,00:00,06:00,Sala MON,ENTRADA METE TU BOTELLA,15€,Jue. 14 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+JUEVES MON METE TU BOTELLA,14-03-2024,00:00,06:00,Sala MON,LISTA GRATIS CHICAS,Gratis,Jue. 14 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+JUEVES TEATRO BARCELO,14-03-2024,00:00,05:30,Teatro Barceló,BARRA LIBRE GRATIS,0€,Jue. 14 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+JUEVES TEATRO BARCELO,14-03-2024,00:00,05:30,Teatro Barceló,ACCESO RAPIDO,15€,Jue. 14 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+JUEVES TEATRO BARCELO,14-03-2024,00:00,05:30,Teatro Barceló,ACCESO RÁPIDO,20€,Jue. 14 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+JUEVES TEATRO BARCELO,14-03-2024,00:00,05:30,Teatro Barceló,LISTA GRATIS HASTA LAS 01H. O HASTA COMPLETAR CUPO. DESPUÉS 1X20€ O 2x30€,Gratis,Jue. 14 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+JUEVES TEATRO BARCELO,14-03-2024,00:00,05:30,Teatro Barceló,LISTA GRATIS HASTA LAS 01H. O HASTA COMPLETAR CUPO. DESPUÉS 1x20 O 2x30,Gratis,Jue. 14 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+Jueves VANDIDO,14-03-2024,00:00,06:00,VANDIDO,1 x 20€,20€,Jue. 14 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+Jueves VANDIDO,14-03-2024,00:00,06:00,VANDIDO,Lista,,Jue. 14 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+OH MY CLUB MONARCHIE,14-03-2024,00:00,06:00,Oh My Club,2 consumiciones x 20€*,20€,Jue. 14 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+THURSDAYS at Tiffany´s The Club,14-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1€ ANTES DE LA 1:30H,1€,Jue. 14 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+THURSDAYS at Tiffany´s The Club,14-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 2x12€,12€,Jue. 14 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+THURSDAYS at Tiffany´s The Club,14-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 3x15€,15€,Jue. 14 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+Atta,14-03-2024,00:00,05:30,Atta Madrid,ENTRADA 15€ (2 copas antes de las 00:30),15€,Jue. 14 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,14-03-2024,00:00,05:30,Atta Madrid,Entrada 15€ (dos copas antes de las 00:30),15€,Jue. 14 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,14-03-2024,00:00,05:30,Atta Madrid,ENTRADA 20€ (dos copas antes de la 1:30),20€,Jue. 14 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,14-03-2024,00:00,05:30,Atta Madrid,ENTRADA 20€ (dos copas antes de la 1:30),20€,Jue. 14 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,14-03-2024,00:00,05:30,Atta Madrid,ENTRADA 25€ (dos copas toda la noche ),25€,Jue. 14 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,14-03-2024,00:00,05:30,Atta Madrid,Lista chicas gratis (antes de la 1:30),Gratis,Jue. 14 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,14-03-2024,00:00,05:30,Atta Madrid,Lista chicos gratis (antes de las 00:30),Gratis,Jue. 14 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Jueves Fitz x Juan Magan,14-03-2024,00:00,06:00,Fitz Club,2x25€,25€,Jue. 14 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Jueves Fitz x Juan Magan,14-03-2024,00:00,06:00,Fitz Club,Lista gratis,Gratis,Jue. 14 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Jueves Fitz x Juan Magan,14-03-2024,00:00,06:00,Fitz Club,TAQUILLA,25€,Jue. 14 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+FRIDAY at Casa Suecia Rooftop x DADA,15-03-2024,17:00,00:00,511 EVENTS,EARLY BIRDS,15€,Vie. 15 Marzo 2024,Casa Suecia Rooftop,Casual,"y roof top, C. del Marqués de Casa Riera, 4, Planta baja, 28014 Madrid, España",40.4179018,-3.6962677
+FRIDAY at Casa Suecia Rooftop x DADA,15-03-2024,17:00,00:00,511 EVENTS,TICKETS,18€,Vie. 15 Marzo 2024,Casa Suecia Rooftop,Casual,"y roof top, C. del Marqués de Casa Riera, 4, Planta baja, 28014 Madrid, España",40.4179018,-3.6962677
+Fin de Exámenes + Semáforo 🚦,15-03-2024,17:00,22:00,Last Sound,Oferta de Lanzamiento 🚀,10€,Vie. 15 Marzo 2024,Fitz Club,Arreglado,"C. de la Princesa, 1, 28008 Madrid, España",40.4240347,-3.7109686
+Fin de Exámenes + Semáforo 🚦,15-03-2024,17:00,22:00,Last Sound,Entrada General,12€,Vie. 15 Marzo 2024,Fitz Club,Arreglado,"C. de la Princesa, 1, 28008 Madrid, España",40.4240347,-3.7109686
+Fin de Exámenes + Semáforo 🚦,15-03-2024,17:00,22:00,Last Sound,Entrada General,15€,Vie. 15 Marzo 2024,Fitz Club,Arreglado,"C. de la Princesa, 1, 28008 Madrid, España",40.4240347,-3.7109686
+Fin de Exámenes + Semáforo 🚦,15-03-2024,17:00,22:00,Last Sound,Entrada VIP,20€,Vie. 15 Marzo 2024,Fitz Club,Arreglado,"C. de la Princesa, 1, 28008 Madrid, España",40.4240347,-3.7109686
+Beer Pong Tournament at Bendito,15-03-2024,19:00,00:00,511 EVENTS,ENTRADA PAREJA,10€,Vie. 15 Marzo 2024,Bendito,Casual,"Calle de Juan Bravo, 35, 28006 Madrid, España",40.4328005,-3.6787049
+Beer Pong Tournament at Bendito,15-03-2024,19:00,00:00,511 EVENTS,ESPECTADORES,Gratis,Vie. 15 Marzo 2024,Bendito,Casual,"Calle de Juan Bravo, 35, 28006 Madrid, España",40.4328005,-3.6787049
+JALEITO BY BONDED CLUB,15-03-2024,20:00,00:00,BONDED CLUB,Lista Gratis,Gratis,Vie. 15 Marzo 2024,BONDED CLUB,Casual,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+TARDEO x FIESTASMADRILES,15-03-2024,20:00,00:00,BAO BAO,ENTRADA GENERAL 2x10€,10€,Vie. 15 Marzo 2024,BaoBao,Casual,"Calle de Guzmán el Bueno, 98, 28003 Madrid (Madrid), España",40.44155,-3.71239
+TARDEO x FIESTASMADRILES,15-03-2024,20:00,00:00,BAO BAO,PROMO 3x13€,13€,Vie. 15 Marzo 2024,BaoBao,Casual,"Calle de Guzmán el Bueno, 98, 28003 Madrid (Madrid), España",40.44155,-3.71239
+TARDEO x FIESTASMADRILES,15-03-2024,20:00,00:00,BAO BAO,LISTAS GRATIS,Gratis,Vie. 15 Marzo 2024,BaoBao,Casual,"Calle de Guzmán el Bueno, 98, 28003 Madrid (Madrid), España",40.44155,-3.71239
+VIERNES WONDER x 511,15-03-2024,21:00,06:00,511 EVENTS,ACCESO ASEGURADO,15€,Vie. 15 Marzo 2024,Wonder,Casual,"Calle de Lagasca, 105, 28006 Madrid, España",40.4343567,-3.6847295
+VIERNES WONDER x 511,15-03-2024,21:00,06:00,511 EVENTS,GUEST LIST,Gratis,Vie. 15 Marzo 2024,Wonder,Casual,"Calle de Lagasca, 105, 28006 Madrid, España",40.4343567,-3.6847295
+VIERNES WONDER x 511,15-03-2024,21:00,06:00,511 EVENTS,Pago en puerta sujeto a aforo,20€,Vie. 15 Marzo 2024,Wonder,Casual,"Calle de Lagasca, 105, 28006 Madrid, España",40.4343567,-3.6847295
+DOS PASSOS,15-03-2024,21:00,04:00,Yatengoplan,Listas,Gratis,Vie. 15 Marzo 2024,Dos passos ,Arreglado,"C. de la Princesa, 3, 28008 Madrid, España",40.4249941,-3.7128501
+LA TRIBU,15-03-2024,22:00,05:00,La Reserva,ENTRADA GOLD,12€,Vie. 15 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+LA TRIBU,15-03-2024,22:00,05:00,La Reserva,ENTRADA PLATINUM,20€,Vie. 15 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+“VANILA” en PandaSingstar,15-03-2024,23:00,06:00,Panda Singstar,2x20 ENTRADA ANTICIPADAS,20€,Vie. 15 Marzo 2024,Panda Singstar,Casual,"Paseo de la Castellana, 118, 28046 Madrid (Madrid), España",40.44824,-3.69038
+“VANILA” en PandaSingstar,15-03-2024,23:00,06:00,Panda Singstar,Lista Gratis 00:00-01:30,Gratis,Vie. 15 Marzo 2024,Panda Singstar,Casual,"Paseo de la Castellana, 118, 28046 Madrid (Madrid), España",40.44824,-3.69038
+MARVEL MADRID - ENTRADAS VIERNES,15-03-2024,23:30,06:00,DISCOTECA MARVEL,Entrada + 2 copas Viernes,16€,Vie. 15 Marzo 2024,MARVEL MADRID,Casual,"C. de Joaquín Costa, 27, 28002 Madrid, España",40.446191,-3.6865742
+MARVEL MADRID - ENTRADAS VIERNES,15-03-2024,23:30,06:00,DISCOTECA MARVEL,Listas Viernes - Discoteca Marvel Madrid,Gratis,Vie. 15 Marzo 2024,MARVEL MADRID,Casual,"C. de Joaquín Costa, 27, 28002 Madrid, España",40.446191,-3.6865742
+REGGAETON WEEKEND,15-03-2024,23:30,06:00,EPOKA THE CLUB,Entrada 1,10€,Vie. 15 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+REGGAETON WEEKEND,15-03-2024,23:30,06:00,EPOKA THE CLUB,Entrada 2,12€,Vie. 15 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+REGGAETON WEEKEND,15-03-2024,23:30,06:00,EPOKA THE CLUB,Entrada 3,16€,Vie. 15 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+REGGAETON WEEKEND,15-03-2024,23:30,06:00,EPOKA THE CLUB,Entrada,18€,Vie. 15 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+VIERNES,15-03-2024,23:45,06:00,Nazca Club,ACCESO ASEGURADO,15€,Vie. 15 Marzo 2024,Wonder,Casual,"Calle de Lagasca, 105, 28006 Madrid, España",40.4343567,-3.6847295
+VIERNES,15-03-2024,23:45,06:00,Nazca Club,GUEST LIST,Gratis,Vie. 15 Marzo 2024,Wonder,Casual,"Calle de Lagasca, 105, 28006 Madrid, España",40.4343567,-3.6847295
+VIERNES,15-03-2024,23:45,06:00,Nazca Club,Pago en puerta sujeto a aforo,20€,Vie. 15 Marzo 2024,Wonder,Casual,"Calle de Lagasca, 105, 28006 Madrid, España",40.4343567,-3.6847295
+VIERNES+18🐘,15-03-2024,23:45,06:00,KUMARAH,Entrada 1 consumición,12€,Vie. 15 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+VIERNES+18🐘,15-03-2024,23:45,06:00,KUMARAH,Promo 2x15€🚨🚨‼️,15€,Vie. 15 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+VIERNES+18🐘,15-03-2024,23:45,06:00,KUMARAH,Entrada 2 consumiciones,18€,Vie. 15 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+CLIQUOT - ESPECIAL SAINT PATRICK’S,15-03-2024,00:00,06:00,the bassement,2 X 18€,18€,Vie. 15 Marzo 2024,THE BASSEMENT ,Casual,"C. de Galileo, 26, 28015 Madrid, España",40.4326411,-3.7101936
+CLIQUOT - ESPECIAL SAINT PATRICK’S,15-03-2024,00:00,06:00,the bassement,2 x 20€,20€,Vie. 15 Marzo 2024,THE BASSEMENT ,Casual,"C. de Galileo, 26, 28015 Madrid, España",40.4326411,-3.7101936
+CLIQUOT - ESPECIAL SAINT PATRICK’S,15-03-2024,00:00,06:00,the bassement,2 x 22€,22€,Vie. 15 Marzo 2024,THE BASSEMENT ,Casual,"C. de Galileo, 26, 28015 Madrid, España",40.4326411,-3.7101936
+CLIQUOT - ESPECIAL SAINT PATRICK’S,15-03-2024,00:00,06:00,the bassement,2 x 25€,25€,Vie. 15 Marzo 2024,THE BASSEMENT ,Casual,"C. de Galileo, 26, 28015 Madrid, España",40.4326411,-3.7101936
+CLIQUOT - ESPECIAL SAINT PATRICK’S,15-03-2024,00:00,06:00,the bassement,2 x 28€,28€,Vie. 15 Marzo 2024,THE BASSEMENT ,Casual,"C. de Galileo, 26, 28015 Madrid, España",40.4326411,-3.7101936
+CLIQUOT - ESPECIAL SAINT PATRICK’S,15-03-2024,00:00,06:00,the bassement,Últimas entradas,30€,Vie. 15 Marzo 2024,THE BASSEMENT ,Casual,"C. de Galileo, 26, 28015 Madrid, España",40.4326411,-3.7101936
+CLIQUOT - ESPECIAL SAINT PATRICK’S,15-03-2024,00:00,06:00,the bassement,CHICAS GRATIS,Gratis,Vie. 15 Marzo 2024,THE BASSEMENT ,Casual,"C. de Galileo, 26, 28015 Madrid, España",40.4326411,-3.7101936
+CLIQUOT - ESPECIAL SAINT PATRICK’S,15-03-2024,00:00,06:00,the bassement,TAQUILLA,25€,Vie. 15 Marzo 2024,THE BASSEMENT ,Casual,"C. de Galileo, 26, 28015 Madrid, España",40.4326411,-3.7101936
+Viernes Benz,15-03-2024,00:00,06:00,LIBERATA,ANTICIPADA 1x15,15€,Vie. 15 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+Viernes Benz,15-03-2024,00:00,06:00,LIBERATA,ANTICIPADA 2x20,20€,Vie. 15 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+Viernes Benz,15-03-2024,00:00,06:00,LIBERATA,QRS CHICAS GRATIS,Gratis,Vie. 15 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+Fitz presenta RED con HUGEL,15-03-2024,00:00,06:00,Fitz Club,Lista chicas gratis,Gratis,Vie. 15 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Fitz presenta RED con HUGEL,15-03-2024,00:00,06:00,Fitz Club,Lista 1x25€,25€,Vie. 15 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+VIERNES TEATRO BARCELO,15-03-2024,00:00,06:00,Teatro Barceló,ACCESO RÁPIDO,35€,Vie. 15 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+VIERNES TEATRO BARCELO,15-03-2024,00:00,06:00,Teatro Barceló,Gratis hasta la 01H o completar cupo. DESPUÉS 1x25€ O 2x35€,Gratis,Vie. 15 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+VIERNES TEATRO BARCELO,15-03-2024,00:00,06:00,Teatro Barceló,ENTRADA PRIORITARIA Precio 15€ 1 copa o 2 copas 30€ desde las 00:00 hasta la 01:00 AM,,Vie. 15 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+VYTA FRIDAY’S,15-03-2024,00:00,06:00,VYTA CLUB,Entrada 1x15€,15€,Vie. 15 Marzo 2024,"Av.Felipe II, 16, Goya Madrid",Casual,"28009 Madrid, España",40.4161588,-3.680072
+VYTA FRIDAY’S,15-03-2024,00:00,06:00,VYTA CLUB,Entrada 2x20€,20€,Vie. 15 Marzo 2024,"Av.Felipe II, 16, Goya Madrid",Casual,"28009 Madrid, España",40.4161588,-3.680072
+VYTA FRIDAY’S,15-03-2024,00:00,06:00,VYTA CLUB,LISTAS GRATIS HASTA LA 1:00,Gratis,Vie. 15 Marzo 2024,"Av.Felipe II, 16, Goya Madrid",Casual,"28009 Madrid, España",40.4161588,-3.680072
+FIESTA BIBBLE,15-03-2024,00:00,06:00,BAO BAO,1st Release 1x10,10€,Vie. 15 Marzo 2024,BaoBao,Casual,"Calle de Guzmán el Bueno, 98, 28003 Madrid (Madrid), España",40.44155,-3.71239
+FIESTA BIBBLE,15-03-2024,00:00,06:00,BAO BAO,2nd Release 1x12,12€,Vie. 15 Marzo 2024,BaoBao,Casual,"Calle de Guzmán el Bueno, 98, 28003 Madrid (Madrid), España",40.44155,-3.71239
+FIESTA BIBBLE,15-03-2024,00:00,06:00,BAO BAO,3rd Release 2x15,15€,Vie. 15 Marzo 2024,BaoBao,Casual,"Calle de Guzmán el Bueno, 98, 28003 Madrid (Madrid), España",40.44155,-3.71239
+FIESTA BIBBLE,15-03-2024,00:00,06:00,BAO BAO,4th Release 1x15,15€,Vie. 15 Marzo 2024,BaoBao,Casual,"Calle de Guzmán el Bueno, 98, 28003 Madrid (Madrid), España",40.44155,-3.71239
+VIERNES MON,15-03-2024,00:00,06:00,Sala MON,Entrada con una consumición,15€,Vie. 15 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+VIERNES MON,15-03-2024,00:00,06:00,Sala MON,PROMO Entrada 2 consumiciones,15€,Vie. 15 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+VIERNES MON,15-03-2024,00:00,06:00,Sala MON,Entrada 2 consumiciones,20€,Vie. 15 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+CHANGO,15-03-2024,00:00,07:30,Goose Group,18€ 2 copas hasta la 12:30,18€,Vie. 15 Marzo 2024,Goose,Casual,"Calle de Covarrubias, 42, 28010 Madrid (Madrid), España",40.43159,-3.69814
+CHANGO,15-03-2024,00:00,07:30,Goose Group,20€ 2 copas hasta la 1,20€,Vie. 15 Marzo 2024,Goose,Casual,"Calle de Covarrubias, 42, 28010 Madrid (Madrid), España",40.43159,-3.69814
+CHANGO,15-03-2024,00:00,07:30,Goose Group,25€ 2 copas hasta la 1,25€,Vie. 15 Marzo 2024,Goose,Casual,"Calle de Covarrubias, 42, 28010 Madrid (Madrid), España",40.43159,-3.69814
+CHANGO,15-03-2024,00:00,07:30,Goose Group,Chicas Gratis hasta las 12:30,Gratis,Vie. 15 Marzo 2024,Goose,Casual,"Calle de Covarrubias, 42, 28010 Madrid (Madrid), España",40.43159,-3.69814
+JOLGORIO,15-03-2024,00:00,06:00,OPIUM Madrid,General Admission,20€,Vie. 15 Marzo 2024,Opium Madrid,Arreglado,"Calle de José Abascal, 56, 28003 Madrid (Madrid), España",40.43792,-3.69212
+MÜZA x Oh My Club,15-03-2024,00:00,06:00,Oh My Club,FIRTS RELEASE,15€,Vie. 15 Marzo 2024,Oh My Club,Casual,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+MÜZA x Oh My Club,15-03-2024,00:00,06:00,Oh My Club,2 DRINKS 20€,20€,Vie. 15 Marzo 2024,Oh My Club,Casual,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+MÜZA x Oh My Club,15-03-2024,00:00,06:00,Oh My Club,GUEST LIST FOR GIRLS,Gratis,Vie. 15 Marzo 2024,Oh My Club,Casual,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+CATS Viernes 15Marzo,15-03-2024,00:00,06:00,CATS MADRID,1x10€,10€,Vie. 15 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+CATS Viernes 15Marzo,15-03-2024,00:00,06:00,CATS MADRID,2x12€,12€,Vie. 15 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+CATS Viernes 15Marzo,15-03-2024,00:00,06:00,CATS MADRID,2x15€,15€,Vie. 15 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+CATS Viernes 15Marzo,15-03-2024,00:00,06:00,CATS MADRID,2x18€,18€,Vie. 15 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+CATS Viernes 15Marzo,15-03-2024,00:00,06:00,CATS MADRID,2x20€,20€,Vie. 15 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+Viernes VANDIDO,15-03-2024,00:00,06:00,VANDIDO,Lista,,Vie. 15 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+FRIDAY in the future,15-03-2024,00:00,06:00,Jowke Club,Fast Pass 2x25,25€,Vie. 15 Marzo 2024,Jowke Club,Casual,"Avenida de San Martín de Valdeiglesias, 22, 28922 Alcorcón (Madrid), España",40.35748,-3.83485
+Viernes TOY ROOM,15-03-2024,00:00,06:00,Toy Room Madrid,Entrada 1x15 hasta las 3 am,15€,Vie. 15 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Viernes TOY ROOM,15-03-2024,00:00,06:00,Toy Room Madrid,Entrada 2x20 hasta la 1 am,20€,Vie. 15 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Viernes TOY ROOM,15-03-2024,00:00,06:00,Toy Room Madrid,Entrada 2X25 hasta las 3 am,25€,Vie. 15 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Viernes TOY ROOM,15-03-2024,00:00,06:00,Toy Room Madrid,Listas gratis chicas hasta la 1:00 am,,Vie. 15 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Viernes TOY ROOM,15-03-2024,00:00,06:00,Toy Room Madrid,Early Birds Guestlist,Gratis,Vie. 15 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+FRIDAYS at Tiffany´s The Club,15-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1X15€,15€,Vie. 15 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+FRIDAYS at Tiffany´s The Club,15-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1x20€,20€,Vie. 15 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+FRIDAYS at Tiffany´s The Club,15-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 2x20€,20€,Vie. 15 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+Atta,15-03-2024,00:00,06:00,Atta Madrid,Entrada anticipada 25€ (dos copas antes de la 1;30),25€,Vie. 15 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,15-03-2024,00:00,06:00,Atta Madrid,ENTRADA 35€ (dos copas toda la noche ),35€,Vie. 15 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,15-03-2024,00:00,06:00,Atta Madrid,LISTA GRATIS CHICAS (antes de la 1:30),Gratis,Vie. 15 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,15-03-2024,00:00,06:00,Atta Madrid,QR CHICOS PAGO EN PUERTA,,Vie. 15 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+MAU MAU - FRI.,15-03-2024,00:00,06:00,MAU MAU Madrid,LISTAS CHICAS GRATIS HASTA 01:00,Gratis,Vie. 15 Marzo 2024,MAU MAU,Casual,"Calle del Padre Damián, 23, 28036 Madrid (Madrid), España",40.45818,-3.68578
+MAU MAU - FRI.,15-03-2024,00:00,06:00,MAU MAU Madrid,Listas - Consumiciones,,Vie. 15 Marzo 2024,MAU MAU,Casual,"Calle del Padre Damián, 23, 28036 Madrid (Madrid), España",40.45818,-3.68578
+PANDA VIERNES,15-03-2024,00:00,06:00,PANDA CLUB,1 x 20€,20€,Vie. 15 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA VIERNES,15-03-2024,00:00,06:00,PANDA CLUB,2 x 30€,30€,Vie. 15 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA VIERNES,15-03-2024,00:00,06:00,PANDA CLUB,GRATIS,Gratis,Vie. 15 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA VIERNES,15-03-2024,00:00,06:00,PANDA CLUB,TAQUILLA,,Vie. 15 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+FRIDAY  | POSH⭐️,15-03-2024,00:00,06:00,Posh Club,ENTRADA 1x15€,15€,Vie. 15 Marzo 2024,Posh Club,Arreglado,"Calle de Orense, 18, 28020 Madrid (Madrid), España",40.45032,-3.69499
+FRIDAY  | POSH⭐️,15-03-2024,00:00,06:00,Posh Club,OFERTA ÚLTIMA HORA 2x15€,15€,Vie. 15 Marzo 2024,Posh Club,Arreglado,"Calle de Orense, 18, 28020 Madrid (Madrid), España",40.45032,-3.69499
+FRIDAY  | POSH⭐️,15-03-2024,00:00,06:00,Posh Club,ENTRADA PROMOCIONAL 2x18€,18€,Vie. 15 Marzo 2024,Posh Club,Arreglado,"Calle de Orense, 18, 28020 Madrid (Madrid), España",40.45032,-3.69499
+FRIDAY  | POSH⭐️,15-03-2024,00:00,06:00,Posh Club,ENTRADA GENERAL,25€,Vie. 15 Marzo 2024,Posh Club,Arreglado,"Calle de Orense, 18, 28020 Madrid (Madrid), España",40.45032,-3.69499
+PURO COPER,15-03-2024,00:00,06:00,Copérnico The Club,Entrada anticipada,20€,Vie. 15 Marzo 2024,Copernico,Arreglado,"Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",40.43525,-3.71368
+PURO COPER,15-03-2024,00:00,06:00,Copérnico The Club,Entradas anticipadas,25€,Vie. 15 Marzo 2024,Copernico,Arreglado,"Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",40.43525,-3.71368
+EL TARDEO APRESKI (SNOZONE),16-03-2024,15:00,22:00,Jowke Club,ONLY APRESKI,15€,Sáb. 16 Marzo 2024,SNOZONE XANADU,Casual,"C. Puerto de Navacerrada, 2, 28939 Arroyomolinos, Madrid, España",40.2995857,-3.92581
+EL TARDEO APRESKI (SNOZONE),16-03-2024,15:00,22:00,Jowke Club,FORFAIT  + APRESKI,40€,Sáb. 16 Marzo 2024,SNOZONE XANADU,Casual,"C. Puerto de Navacerrada, 2, 28939 Arroyomolinos, Madrid, España",40.2995857,-3.92581
+TARDEO BONDED,16-03-2024,18:00,06:00,Yatengoplan,Oferta anticipada,20€,Sáb. 16 Marzo 2024,Bonded,Arreglado,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+TARDEO BONDED,16-03-2024,18:00,06:00,Yatengoplan,LISTAS,,Sáb. 16 Marzo 2024,Bonded,Arreglado,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+SAFARI,16-03-2024,22:00,05:00,La Reserva,ENTRADA GOLD,12€,Sáb. 16 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+SAFARI,16-03-2024,22:00,05:00,La Reserva,ENTRADA PLATINUM,20€,Sáb. 16 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+SSOMEK,16-03-2024,23:00,06:00,Epoka Eventos,Entrada 1 (limitadas),10€,Sáb. 16 Marzo 2024,EPOKA,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+SSOMEK,16-03-2024,23:00,06:00,Epoka Eventos,Entrada 3,12€,Sáb. 16 Marzo 2024,EPOKA,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+SSOMEK,16-03-2024,23:00,06:00,Epoka Eventos,Entrada 2 (promo limitadas),15€,Sáb. 16 Marzo 2024,EPOKA,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+SSOMEK,16-03-2024,23:00,06:00,Epoka Eventos,Entrada 4,18€,Sáb. 16 Marzo 2024,EPOKA,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+K POP | REGGAETON NIGHT,16-03-2024,23:30,06:00,EPOKA THE CLUB,Entrada promo (limitadas),6€,Sáb. 16 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+K POP | REGGAETON NIGHT,16-03-2024,23:30,06:00,EPOKA THE CLUB,Entrada,8€,Sáb. 16 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+K POP | REGGAETON NIGHT,16-03-2024,23:30,06:00,EPOKA THE CLUB,Entrada 1,10€,Sáb. 16 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+K POP | REGGAETON NIGHT,16-03-2024,23:30,06:00,EPOKA THE CLUB,Entrada 2,12€,Sáb. 16 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+K POP | REGGAETON NIGHT,16-03-2024,23:30,06:00,EPOKA THE CLUB,Entrada 3,15€,Sáb. 16 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+K POP | REGGAETON NIGHT,16-03-2024,23:30,06:00,EPOKA THE CLUB,Entrada,18€,Sáb. 16 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+MARVEL MADRID - ENTRADAS SÁBADO,16-03-2024,23:30,06:00,DISCOTECA MARVEL,Entrada + 2 copas Sábado,18€,Sáb. 16 Marzo 2024,MARVEL MADRID,Casual,"C. de Joaquín Costa, 27, 28002 Madrid, España",40.446191,-3.6865742
+MARVEL MADRID - ENTRADAS SÁBADO,16-03-2024,23:30,06:00,DISCOTECA MARVEL,Listas Sábados - Marvel Madrid,Gratis,Sáb. 16 Marzo 2024,MARVEL MADRID,Casual,"C. de Joaquín Costa, 27, 28002 Madrid, España",40.446191,-3.6865742
+SATURDAY WONDER x 511,16-03-2024,23:30,06:00,511 EVENTS,ACCESO ASEGURADO,15€,Sáb. 16 Marzo 2024,Wonder,Casual,"Calle de Lagasca, 105, 28006 Madrid, España",40.4343567,-3.6847295
+SATURDAY WONDER x 511,16-03-2024,23:30,06:00,511 EVENTS,GUEST LIST,Gratis,Sáb. 16 Marzo 2024,Wonder,Casual,"Calle de Lagasca, 105, 28006 Madrid, España",40.4343567,-3.6847295
+SATURDAY WONDER x 511,16-03-2024,23:30,06:00,511 EVENTS,Pago en puerta sujeto a aforo,20€,Sáb. 16 Marzo 2024,Wonder,Casual,"Calle de Lagasca, 105, 28006 Madrid, España",40.4343567,-3.6847295
+SABADO,16-03-2024,23:45,06:00,Nazca Club,Entrada General,20€,Sáb. 16 Marzo 2024,Nazca Club,Casual,"C. de Orense, 24, 28020 Madrid, España",40.4515037,-3.6943962
+SÁBADO +21🐘,16-03-2024,23:45,06:00,KUMARAH,ENTRADA GRATIS 🚹,0€,Sáb. 16 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+SÁBADO +21🐘,16-03-2024,23:45,06:00,KUMARAH,Entrada gratis 🚺,0€,Sáb. 16 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+SÁBADO +21🐘,16-03-2024,23:45,06:00,KUMARAH,Entrada 1 consumición,12€,Sáb. 16 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+SÁBADO +21🐘,16-03-2024,23:45,06:00,KUMARAH,PROMO 2x15€🚨🚨‼️,15€,Sáb. 16 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+SÁBADO +21🐘,16-03-2024,23:45,06:00,KUMARAH,Entrada 2 consumiciones,18€,Sáb. 16 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+SATURDAY in the future,16-03-2024,00:00,06:00,Jowke Club,Fast Pass 2x25,25€,Sáb. 16 Marzo 2024,Jowke Club,Casual,"Avenida de San Martín de Valdeiglesias, 22, 28922 Alcorcón (Madrid), España",40.35748,-3.83485
+SÁBADO TEATRO BARCELO,16-03-2024,00:00,06:00,Teatro Barceló,ACCESO RAPIDO,35€,Sáb. 16 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+SÁBADO TEATRO BARCELO,16-03-2024,00:00,06:00,Teatro Barceló,Gratis hasta la 01H o completar cupo. DESPUÉS 1x25€ O 2x35€,Gratis,Sáb. 16 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+SÁBADO TEATRO BARCELO,16-03-2024,00:00,06:00,Teatro Barceló,ENTRADA PRIORITARIA Precio 15€ 1 copa o 2 copas 30€ desde las 00:00 hasta la 01:00 AM,,Sáb. 16 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+PANDA SABADO,16-03-2024,00:00,06:00,PANDA CLUB,1 x 20€,20€,Sáb. 16 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA SABADO,16-03-2024,00:00,06:00,PANDA CLUB,2 x 30€,30€,Sáb. 16 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA SABADO,16-03-2024,00:00,06:00,PANDA CLUB,GRATIS,Gratis,Sáb. 16 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA SABADO,16-03-2024,00:00,06:00,PANDA CLUB,TAQUILLA,,Sáb. 16 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+Atta,16-03-2024,00:00,06:00,Atta Madrid,ENTRADA 25 € (dos copas antes de la 1:30),25€,Sáb. 16 Marzo 2024,Atta Club,Media etiqueta,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,16-03-2024,00:00,06:00,Atta Madrid,ENTRADA 35€ (dos copas toda la noche ),35€,Sáb. 16 Marzo 2024,Atta Club,Media etiqueta,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,16-03-2024,00:00,06:00,Atta Madrid,QR CHICAS GRATIS (antes de la 1:30),Gratis,Sáb. 16 Marzo 2024,Atta Club,Media etiqueta,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,16-03-2024,00:00,06:00,Atta Madrid,QR Chicos 20€ con 1 consumición y 30€ con dos consumiciones,,Sáb. 16 Marzo 2024,Atta Club,Media etiqueta,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Sábado Fitz,16-03-2024,00:00,06:00,Fitz Club,Listas Acceso General,,Sáb. 16 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+TRAVIEXA X OH MY CLUB,16-03-2024,00:00,06:00,Oh My Club,2x20,20€,Sáb. 16 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+TRAVIEXA X OH MY CLUB,16-03-2024,00:00,06:00,Oh My Club,2 COPAS 25,25€,Sáb. 16 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+BONDED CLUB,16-03-2024,00:00,06:00,BONDED CLUB,GUESTLIST,,Sáb. 16 Marzo 2024,BONDED CLUB,Casual,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+Sábado TOY ROOM,16-03-2024,00:00,06:00,Toy Room Madrid,Entrada 1x15 hasta las 3 am,15€,Sáb. 16 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Sábado TOY ROOM,16-03-2024,00:00,06:00,Toy Room Madrid,Entrada 2x20 de hasta la 1 am,20€,Sáb. 16 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Sábado TOY ROOM,16-03-2024,00:00,06:00,Toy Room Madrid,Entrada 2x25 hasta las 3 am,25€,Sáb. 16 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Sábado TOY ROOM,16-03-2024,00:00,06:00,Toy Room Madrid,Listas chicas gratis hasta la 1:00 am,,Sáb. 16 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Sábado TOY ROOM,16-03-2024,00:00,06:00,Toy Room Madrid,Early Birds Guestlist,Gratis,Sáb. 16 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+MAU MAU - SAT.,16-03-2024,00:00,06:00,MAU MAU Madrid,LISTAS CHICAS GRATIS HASTA 01:00,Gratis,Sáb. 16 Marzo 2024,MAU MAU,Casual,"Calle del Padre Damián, 23, 28036 Madrid (Madrid), España",40.45818,-3.68578
+MAU MAU - SAT.,16-03-2024,00:00,06:00,MAU MAU Madrid,Listas - Consumiciones,,Sáb. 16 Marzo 2024,MAU MAU,Casual,"Calle del Padre Damián, 23, 28036 Madrid (Madrid), España",40.45818,-3.68578
+CATS Sabado 16Marzo,16-03-2024,00:00,06:00,CATS MADRID,1x10€,10€,Sáb. 16 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+CATS Sabado 16Marzo,16-03-2024,00:00,06:00,CATS MADRID,2x12€,12€,Sáb. 16 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+CATS Sabado 16Marzo,16-03-2024,00:00,06:00,CATS MADRID,2x15€,15€,Sáb. 16 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+CATS Sabado 16Marzo,16-03-2024,00:00,06:00,CATS MADRID,2x18€,18€,Sáb. 16 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+CATS Sabado 16Marzo,16-03-2024,00:00,06:00,CATS MADRID,2x20€,20€,Sáb. 16 Marzo 2024,DISCOTECA CATS,Casual,"Calle Julián Romea, 4, 28003 Madrid (Madrid), España",40.44274,-3.71318
+SABADO MON,16-03-2024,00:00,06:00,Sala MON,PROMO Entrada 2 consumiciones,15€,Sáb. 16 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+SABADO MON,16-03-2024,00:00,06:00,Sala MON,Promo entrada 1 consumicion,15€,Sáb. 16 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+SABADO MON,16-03-2024,00:00,06:00,Sala MON,Entrada 2 consumiciones,20€,Sáb. 16 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+DEJAS (Vanity ),16-03-2024,00:00,06:00,VANITY,1 X 15€,15€,Sáb. 16 Marzo 2024,VANITY ,Casual,"C. de Miguel Ángel, 3, 28010 Madrid, España",40.4338767,-3.6912657
+DEJAS (Vanity ),16-03-2024,00:00,06:00,VANITY,2 X 18€,18€,Sáb. 16 Marzo 2024,VANITY ,Casual,"C. de Miguel Ángel, 3, 28010 Madrid, España",40.4338767,-3.6912657
+DEJAS (Vanity ),16-03-2024,00:00,06:00,VANITY,2 x 20€,20€,Sáb. 16 Marzo 2024,VANITY ,Casual,"C. de Miguel Ángel, 3, 28010 Madrid, España",40.4338767,-3.6912657
+DEJAS (Vanity ),16-03-2024,00:00,06:00,VANITY,2 x 25€,25€,Sáb. 16 Marzo 2024,VANITY ,Casual,"C. de Miguel Ángel, 3, 28010 Madrid, España",40.4338767,-3.6912657
+DEJAS (Vanity ),16-03-2024,00:00,06:00,VANITY,GRATIS CHICAS,Gratis,Sáb. 16 Marzo 2024,VANITY ,Casual,"C. de Miguel Ángel, 3, 28010 Madrid, España",40.4338767,-3.6912657
+DEJAS (Vanity ),16-03-2024,00:00,06:00,VANITY,TAQUILLA,,Sáb. 16 Marzo 2024,VANITY ,Casual,"C. de Miguel Ángel, 3, 28010 Madrid, España",40.4338767,-3.6912657
+PANDA SINGSTAR - SÁBADOS,16-03-2024,00:00,06:00,Panda Singstar,15€ ENTRADA DESDE LA 1:00hrs,15€,Sáb. 16 Marzo 2024,Panda Singstar,Casual,"Paseo de la Castellana, 118, 28046 Madrid (Madrid), España",40.44824,-3.69038
+PANDA SINGSTAR - SÁBADOS,16-03-2024,00:00,06:00,Panda Singstar,2x20€ ENTRADA DESDE LA 1:00,20€,Sáb. 16 Marzo 2024,Panda Singstar,Casual,"Paseo de la Castellana, 118, 28046 Madrid (Madrid), España",40.44824,-3.69038
+PANDA SINGSTAR - SÁBADOS,16-03-2024,00:00,06:00,Panda Singstar,Entrada libre hasta la 1:00,Gratis,Sáb. 16 Marzo 2024,Panda Singstar,Casual,"Paseo de la Castellana, 118, 28046 Madrid (Madrid), España",40.44824,-3.69038
+SATURDAYS at Tiffany´s The Club,16-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1X15€,15€,Sáb. 16 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+SATURDAYS at Tiffany´s The Club,16-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1x20€,20€,Sáb. 16 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+SATURDAYS at Tiffany´s The Club,16-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 2x20€,20€,Sáb. 16 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+PURO COPER,16-03-2024,00:00,06:00,Copérnico The Club,Entrada anticipada,20€,Sáb. 16 Marzo 2024,Copernico,Arreglado,"Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",40.43525,-3.71368
+PURO COPER,16-03-2024,00:00,06:00,Copérnico The Club,ENTRADA ANTICIPADA,25€,Sáb. 16 Marzo 2024,Copernico,Arreglado,"Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",40.43525,-3.71368
+SATURDAY SUGAR |  POSH CLUB ⭐️,16-03-2024,00:00,06:00,Posh Club,ENTRADAS LIMITADAS 1x15€,15€,Sáb. 16 Marzo 2024,Posh Club,Arreglado,"Calle de Orense, 18, 28020 Madrid (Madrid), España",40.45032,-3.69499
+SATURDAY SUGAR |  POSH CLUB ⭐️,16-03-2024,00:00,06:00,Posh Club,OFERTA ÚLTIMA HORA,15€,Sáb. 16 Marzo 2024,Posh Club,Arreglado,"Calle de Orense, 18, 28020 Madrid (Madrid), España",40.45032,-3.69499
+SATURDAY SUGAR |  POSH CLUB ⭐️,16-03-2024,00:00,06:00,Posh Club,PROMO ONLINE 2x18€,18€,Sáb. 16 Marzo 2024,Posh Club,Arreglado,"Calle de Orense, 18, 28020 Madrid (Madrid), España",40.45032,-3.69499
+SATURDAY SUGAR |  POSH CLUB ⭐️,16-03-2024,00:00,06:00,Posh Club,ENTRADA GENERAL 2x20€,20€,Sáb. 16 Marzo 2024,Posh Club,Arreglado,"Calle de Orense, 18, 28020 Madrid (Madrid), España",40.45032,-3.69499
+SATURDAY SUGAR |  POSH CLUB ⭐️,16-03-2024,00:00,06:00,Posh Club,QR CHICAS GRATIS,Gratis,Sáb. 16 Marzo 2024,Posh Club,Arreglado,"Calle de Orense, 18, 28020 Madrid (Madrid), España",40.45032,-3.69499
+LA DOLCE VYTA,16-03-2024,00:00,06:00,VYTA CLUB,1ST RELEASE,15€,Sáb. 16 Marzo 2024,"Av.Felipe II, 16, Goya Madrid",Casual,"28009 Madrid, España",40.4161588,-3.680072
+LA DOLCE VYTA,16-03-2024,00:00,06:00,VYTA CLUB,ENTRADA GENERAL,20€,Sáb. 16 Marzo 2024,"Av.Felipe II, 16, Goya Madrid",Casual,"28009 Madrid, España",40.4161588,-3.680072
+LA DOLCE VYTA,16-03-2024,00:00,06:00,VYTA CLUB,LISTAS GRATIS CHICOS Y CHICAS HASTA 01:00,Gratis,Sáb. 16 Marzo 2024,"Av.Felipe II, 16, Goya Madrid",Casual,"28009 Madrid, España",40.4161588,-3.680072
+LOTUS,16-03-2024,00:00,06:00,La Sospechosa Club,GOLD,15€,Sáb. 16 Marzo 2024,LA SOSPECHOSA,Casual,"Calle de Juan Bravo, 35, 28006 Madrid, España",40.4328005,-3.6787049
+LOTUS,16-03-2024,00:00,06:00,La Sospechosa Club,PLATINUM,25€,Sáb. 16 Marzo 2024,LA SOSPECHOSA,Casual,"Calle de Juan Bravo, 35, 28006 Madrid, España",40.4328005,-3.6787049
+LOTUS,16-03-2024,00:00,06:00,La Sospechosa Club,LISTA GRATIS,Gratis,Sáb. 16 Marzo 2024,LA SOSPECHOSA,Casual,"Calle de Juan Bravo, 35, 28006 Madrid, España",40.4328005,-3.6787049
+JUST OPIUM,16-03-2024,00:00,06:00,OPIUM Madrid,General Admission,25€,Sáb. 16 Marzo 2024,Opium Madrid,Arreglado,"Calle de José Abascal, 56, 28003 Madrid (Madrid), España",40.43792,-3.69212
+Sábado VANDIDO,16-03-2024,00:00,06:00,VANDIDO,Lista,,Sáb. 16 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+Sábado Liberata,16-03-2024,00:00,06:00,LIBERATA,PROMO 1x12,12€,Sáb. 16 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+Sábado Liberata,16-03-2024,00:00,06:00,LIBERATA,ANTICIPADA 1x15,15€,Sáb. 16 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+Sábado Liberata,16-03-2024,00:00,06:00,LIBERATA,ANTICIPADA 2x20,20€,Sáb. 16 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+Sábado Liberata,16-03-2024,00:00,06:00,LIBERATA,QRS CHICAS GRATIS,Gratis,Sáb. 16 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+SABADO MON: 2ª Fiesta VIVAGYM,16-03-2024,00:00,06:00,Sala MON,PROMO Entrada 2 consumiciones,15€,Sáb. 16 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+SABADO MON: 2ª Fiesta VIVAGYM,16-03-2024,00:00,06:00,Sala MON,Promo entrada 1 consumicion,15€,Sáb. 16 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+SABADO MON: 2ª Fiesta VIVAGYM,16-03-2024,00:00,06:00,Sala MON,Entrada 2 consumiciones,20€,Sáb. 16 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+NATIVO,17-03-2024,22:00,05:00,La Reserva,ENTRADA GOLD,12€,Dom. 17 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+NATIVO,17-03-2024,22:00,05:00,La Reserva,ENTRADA PLATINUM,20€,Dom. 17 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+DOMINGO,17-03-2024,23:45,06:00,Nazca Club,Entrada General,15€,Dom. 17 Marzo 2024,Nazca Club,Casual,"C. de Orense, 24, 28020 Madrid, España",40.4515037,-3.6943962
+SUNDAYS at Tiffany´s The Club,17-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1€ HASTA LA 1:30,1€,Dom. 17 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+SUNDAYS at Tiffany´s The Club,17-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 2x12€,12€,Dom. 17 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+SUNDAYS at Tiffany´s The Club,17-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 3x15€,15€,Dom. 17 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+OH MY CLUB BLUEBELLS,17-03-2024,00:00,05:30,Oh My Club,2 consumiciones x 20€*,20€,Dom. 17 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+OH MY CLUB BLUEBELLS,17-03-2024,00:00,05:30,Oh My Club,ENTRADA LISTA VIP,20€,Dom. 17 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+CAPRICCE!,17-03-2024,00:00,05:30,OPIUM Madrid,General Admission,20€,Dom. 17 Marzo 2024,Opium Madrid,Arreglado,"Calle de José Abascal, 56, 28003 Madrid (Madrid), España",40.43792,-3.69212
+BONDED CLUB x SEVEN,17-03-2024,00:00,06:00,BONDED CLUB,Entrada anticipada,15€,Dom. 17 Marzo 2024,BONDED CLUB,Casual,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+BONDED CLUB x SEVEN,17-03-2024,00:00,06:00,BONDED CLUB,Entrada anticipada,20€,Dom. 17 Marzo 2024,BONDED CLUB,Casual,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+BONDED CLUB x SEVEN,17-03-2024,00:00,06:00,BONDED CLUB,Lista Gratis,Gratis,Dom. 17 Marzo 2024,BONDED CLUB,Casual,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+ROOTS,18-03-2024,22:00,05:00,La Reserva,ENTRADA GOLD,10€,Lun. 18 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+ROOTS,18-03-2024,22:00,05:00,La Reserva,LISTA GRATIS,Gratis,Lun. 18 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+ADDICTED,18-03-2024,00:00,05:30,OPIUM Madrid,General Admission,15€,Lun. 18 Marzo 2024,Opium Madrid,Arreglado,"Calle de José Abascal, 56, 28003 Madrid (Madrid), España",40.43792,-3.69212
+LUNES TEATRO BARCELO,18-03-2024,00:00,06:00,Teatro Barceló,1ST RELEASE,10€,Lun. 18 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+LUNES TEATRO BARCELO,18-03-2024,00:00,06:00,Teatro Barceló,2ND RELEASE,15€,Lun. 18 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+LUNES TEATRO BARCELO,18-03-2024,00:00,06:00,Teatro Barceló,3RD RELEASE,15€,Lun. 18 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+LUNES TEATRO BARCELO,18-03-2024,00:00,06:00,Teatro Barceló,4TH RELEASE,20€,Lun. 18 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+LUNES TEATRO BARCELO,18-03-2024,00:00,06:00,Teatro Barceló,GRATIS HASTA LA 00:30H. DESPUÉS 1x20€ O 2x30€,Gratis,Lun. 18 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+MONDAYS at Tiffany´s The Club,18-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1€ ANTES DE LA 1:30H,1€,Lun. 18 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+MONDAYS at Tiffany´s The Club,18-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 2x12€,12€,Lun. 18 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+MONDAYS at Tiffany´s The Club,18-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 3x15€,15€,Lun. 18 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+OH MY CLUB PATT,18-03-2024,00:00,05:30,Oh My Club,2 consumiciones x 20€*,20€,Lun. 18 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+OH MY CLUB PATT,18-03-2024,00:00,05:30,Oh My Club,ENTRADA LISTA VIP,20€,Lun. 18 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+JUNGLA,19-03-2024,22:00,05:00,La Reserva,ENTRADA GOLD,10€,Mar. 19 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+JUNGLA,19-03-2024,22:00,05:00,La Reserva,LISTA GRATIS,Gratis,Mar. 19 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+TUESDAY MARIETA x 511,19-03-2024,22:00,02:00,511 EVENTS,TICKETS,12€,Mar. 19 Marzo 2024,Marieta,Casual,"P.º de la Castellana, 44, 28046 Madrid, España",40.4338466,-3.6876406
+TUESDAY MARIETA x 511,19-03-2024,22:00,02:00,511 EVENTS,GUEST LIST,Gratis,Mar. 19 Marzo 2024,Marieta,Casual,"P.º de la Castellana, 44, 28046 Madrid, España",40.4338466,-3.6876406
+OH MY CLUB LADIES NIGHT,19-03-2024,00:00,05:30,Oh My Club,2 consumiciones x 20€*,20€,Mar. 19 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+OH MY CLUB LADIES NIGHT,19-03-2024,00:00,05:30,Oh My Club,ENTRADA LISTA VIP,20€,Mar. 19 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+MAD TUESDAYS,19-03-2024,00:00,05:30,OPIUM Madrid,General Admission,20€,Mar. 19 Marzo 2024,Opium Madrid,Arreglado,"Calle de José Abascal, 56, 28003 Madrid (Madrid), España",40.43792,-3.69212
+Martes Fitz,19-03-2024,00:00,06:00,Fitz Club,2x20€ hasta la 1:30,20€,Mar. 19 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Martes Fitz,19-03-2024,00:00,06:00,Fitz Club,2X30€,30€,Mar. 19 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Martes Fitz,19-03-2024,00:00,06:00,Fitz Club,GRATIS,,Mar. 19 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Martes Fitz,19-03-2024,00:00,06:00,Fitz Club,Taquilla,20€,Mar. 19 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+TUESDAYS SLVJ x 511,19-03-2024,01:00,05:30,511 EVENTS,Special Offer 2x20€,20€,Mar. 19 Marzo 2024,SLVJ,Casual,"C. de Velázquez, 62, 28001 Madrid, España",40.4281142,-3.6835392
+TUESDAYS SLVJ x 511,19-03-2024,01:00,05:30,511 EVENTS,GUESTLIST,Gratis,Mar. 19 Marzo 2024,SLVJ,Casual,"C. de Velázquez, 62, 28001 Madrid, España",40.4281142,-3.6835392
+WEDNESDAY MARIETA x 511,20-03-2024,22:00,02:00,511 EVENTS,TICKETS,12€,Mié. 20 Marzo 2024,Marieta,Casual,"P.º de la Castellana, 44, 28046 Madrid, España",40.4338466,-3.6876406
+WEDNESDAY MARIETA x 511,20-03-2024,22:00,02:00,511 EVENTS,GUEST LIST,Gratis,Mié. 20 Marzo 2024,Marieta,Casual,"P.º de la Castellana, 44, 28046 Madrid, España",40.4338466,-3.6876406
+WEDNESDAY MARIETA x 511,20-03-2024,22:00,02:00,511 EVENTS,Gues List lista gratis hasta las 11 pm,Gratis,Mié. 20 Marzo 2024,Marieta,Casual,"P.º de la Castellana, 44, 28046 Madrid, España",40.4338466,-3.6876406
+Miércoles TOY ROOM,20-03-2024,22:00,05:30,Toy Room Madrid,Entrada 1x10€ hasta las 1am,10€,Mié. 20 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Miércoles TOY ROOM,20-03-2024,22:00,05:30,Toy Room Madrid,Entrada 2x15€ hasta la 1:00 AM,15€,Mié. 20 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Miércoles TOY ROOM,20-03-2024,22:00,05:30,Toy Room Madrid,Guest list hasta la 1:00 am,Gratis,Mié. 20 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+TENTACIÓN,20-03-2024,22:00,05:00,La Reserva,ENTRADA GOLD,10€,Mié. 20 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+TENTACIÓN,20-03-2024,22:00,05:00,La Reserva,LISTA GRATIS,Gratis,Mié. 20 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+MANHATTAN BONDED CLUB,20-03-2024,23:00,05:00,BONDED CLUB,Lista gratis,Gratis,Mié. 20 Marzo 2024,BONDED CLUB,Casual,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+MIÉRCOLES,20-03-2024,23:45,06:00,Nazca Club,MIERCOLES,15€,Mié. 20 Marzo 2024,Nazca Club,Casual,"C. de Orense, 24, 28020 Madrid, España",40.4515037,-3.6943962
+VERBENA,20-03-2024,00:00,05:30,OPIUM Madrid,General Admission,20€,Mié. 20 Marzo 2024,Opium Madrid,Arreglado,"Calle de José Abascal, 56, 28003 Madrid (Madrid), España",40.43792,-3.69212
+OH MY CLUB MENTIROSA,20-03-2024,00:00,05:30,Oh My Club,2 consumiciones x 20€*,20€,Mié. 20 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+OH MY CLUB MENTIROSA,20-03-2024,00:00,05:30,Oh My Club,ENTRADA LISTA VIP,20€,Mié. 20 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+Miercoles VANDIDO,20-03-2024,00:00,06:00,VANDIDO,Entrada anticipada | 2 copas,20€,Mié. 20 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+Miercoles VANDIDO,20-03-2024,00:00,06:00,VANDIDO,gratis,Gratis,Mié. 20 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+Miercoles VANDIDO,20-03-2024,00:00,06:00,VANDIDO,1 x 20€,20€,Mié. 20 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+Miércoles Fitz,20-03-2024,00:00,06:00,Fitz Club,FAST PASS CHICAS,15€,Mié. 20 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Miércoles Fitz,20-03-2024,00:00,06:00,Fitz Club,PROMO 1x15€,15€,Mié. 20 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Miércoles Fitz,20-03-2024,00:00,06:00,Fitz Club,Fast Pass chicos,20€,Mié. 20 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Miércoles Fitz,20-03-2024,00:00,06:00,Fitz Club,Acceso Libre hasta la 1:00,Gratis,Mié. 20 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+MIÉRCOLES TEATRO BARCELO,20-03-2024,00:00,05:30,Teatro Barceló,1ST RELEASE,10€,Mié. 20 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+MIÉRCOLES TEATRO BARCELO,20-03-2024,00:00,05:30,Teatro Barceló,2ND RELEASE,15€,Mié. 20 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+MIÉRCOLES TEATRO BARCELO,20-03-2024,00:00,05:30,Teatro Barceló,3RD RELEASE,15€,Mié. 20 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+MIÉRCOLES TEATRO BARCELO,20-03-2024,00:00,05:30,Teatro Barceló,2 x 20,20€,Mié. 20 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+MIÉRCOLES TEATRO BARCELO,20-03-2024,00:00,05:30,Teatro Barceló,Lista gratis hasta la 00:30H,Gratis,Mié. 20 Marzo 2024,Teatro Barcelo,Casual,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+AFTERWORK BONDED CLUB,21-03-2024,20:00,01:00,BONDED CLUB,ANTICIPADA | 1 COPA,15€,Jue. 21 Marzo 2024,BONDED CLUB,Casual,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+AFTERWORK BONDED CLUB,21-03-2024,20:00,01:00,BONDED CLUB,Afterwork - Lista gratis hasta 22:00,Gratis,Jue. 21 Marzo 2024,BONDED CLUB,Casual,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+MALEDETTA PRIMAVERA PERRACHICA x 511,21-03-2024,22:00,02:00,511 EVENTS,TICKET,12€,Jue. 21 Marzo 2024,Perrachica,Casual,"C. de Eloy Gonzalo, 10, 28010 Madrid, España",40.4336358,-3.7029795
+MALEDETTA PRIMAVERA PERRACHICA x 511,21-03-2024,22:00,02:00,511 EVENTS,511 GUEST LIST,Gratis,Jue. 21 Marzo 2024,Perrachica,Casual,"C. de Eloy Gonzalo, 10, 28010 Madrid, España",40.4336358,-3.7029795
+GOLDEN HOUR,21-03-2024,22:00,05:00,La Reserva,ENTRADA GOLD,10€,Jue. 21 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+GOLDEN HOUR,21-03-2024,22:00,05:00,La Reserva,LISTA GRATIS,Gratis,Jue. 21 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+BZZN club at Toy Room,21-03-2024,23:45,05:30,Toy Room Madrid,TOY PASS,20€,Jue. 21 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+BZZN club at Toy Room,21-03-2024,23:45,05:30,Toy Room Madrid,GUESTLIST,Gratis,Jue. 21 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+JUEVES - ICE,21-03-2024,23:45,06:00,Nazca Club,Entrada General,15€,Jue. 21 Marzo 2024,Nazca Club,Casual,"C. de Orense, 24, 28020 Madrid, España",40.4515037,-3.6943962
+PANDA JUEVES - BAMBOO,21-03-2024,00:00,06:00,PANDA CLUB,1 x 15€,15€,Jue. 21 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA JUEVES - BAMBOO,21-03-2024,00:00,06:00,PANDA CLUB,CONCIERTO,15€,Jue. 21 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA JUEVES - BAMBOO,21-03-2024,00:00,06:00,PANDA CLUB,2 x 20€,20€,Jue. 21 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA JUEVES - BAMBOO,21-03-2024,00:00,06:00,PANDA CLUB,GRATIS,Gratis,Jue. 21 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA JUEVES - BAMBOO,21-03-2024,00:00,06:00,PANDA CLUB,TAQUILLA,,Jue. 21 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+JUEVES TEATRO BARCELO,21-03-2024,00:00,05:30,Teatro Barceló,BARRA LIBRE GRATIS,0€,Jue. 21 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+JUEVES TEATRO BARCELO,21-03-2024,00:00,05:30,Teatro Barceló,ACCESO RAPIDO,15€,Jue. 21 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+JUEVES TEATRO BARCELO,21-03-2024,00:00,05:30,Teatro Barceló,ACCESO RÁPIDO,20€,Jue. 21 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+JUEVES TEATRO BARCELO,21-03-2024,00:00,05:30,Teatro Barceló,LISTA GRATIS HASTA LAS 01H. O HASTA COMPLETAR CUPO. DESPUÉS 1X20€ O 2x30€,Gratis,Jue. 21 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+JUEVES TEATRO BARCELO,21-03-2024,00:00,05:30,Teatro Barceló,LISTA GRATIS HASTA LAS 01H. O HASTA COMPLETAR CUPO. DESPUÉS 1x20 O 2x30,Gratis,Jue. 21 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+DRISS,21-03-2024,00:00,05:30,GREY,1 x 15€,15€,Jue. 21 Marzo 2024,GREY,Casual,"C. de Ríos Rosas, 26, Chamberí, 28003 Madrid, España",40.4416927,-3.7005489
+DRISS,21-03-2024,00:00,05:30,GREY,2 x 20€,20€,Jue. 21 Marzo 2024,GREY,Casual,"C. de Ríos Rosas, 26, Chamberí, 28003 Madrid, España",40.4416927,-3.7005489
+DRISS,21-03-2024,00:00,05:30,GREY,2 x 25€,25€,Jue. 21 Marzo 2024,GREY,Casual,"C. de Ríos Rosas, 26, Chamberí, 28003 Madrid, España",40.4416927,-3.7005489
+Atta,21-03-2024,00:00,05:30,Atta Madrid,ENTRADA 15€ (2 copas antes de las 00:30),15€,Jue. 21 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,21-03-2024,00:00,05:30,Atta Madrid,Entrada 15€ (dos copas antes de las 00:30),15€,Jue. 21 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,21-03-2024,00:00,05:30,Atta Madrid,ENTRADA 20€ (dos copas antes de la 1:30),20€,Jue. 21 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,21-03-2024,00:00,05:30,Atta Madrid,ENTRADA 20€ (dos copas antes de la 1:30),20€,Jue. 21 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,21-03-2024,00:00,05:30,Atta Madrid,ENTRADA 25€ (dos copas toda la noche ),25€,Jue. 21 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,21-03-2024,00:00,05:30,Atta Madrid,Lista chicas gratis (antes de la 1:30),Gratis,Jue. 21 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,21-03-2024,00:00,05:30,Atta Madrid,Lista chicos gratis (antes de las 00:30),Gratis,Jue. 21 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Jueves Commodoro,21-03-2024,00:00,06:00,Bardot,1 TANDA 2x20€,20€,Jue. 21 Marzo 2024,Bardot,Arreglado,"Calle de Joaquín Costa, 29, 28002 Madrid (Madrid), España",40.44613,-3.68599
+Jueves Commodoro,21-03-2024,00:00,06:00,Bardot,2 TANDA 2x25€,25€,Jue. 21 Marzo 2024,Bardot,Arreglado,"Calle de Joaquín Costa, 29, 28002 Madrid (Madrid), España",40.44613,-3.68599
+Jueves Commodoro,21-03-2024,00:00,06:00,Bardot,QRS CHICAS GRATIS,Gratis,Jue. 21 Marzo 2024,Bardot,Arreglado,"Calle de Joaquín Costa, 29, 28002 Madrid (Madrid), España",40.44613,-3.68599
+THURSDAY at Tiffany´s The Club,21-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1€ ANTES DE LA 1:30H,1€,Jue. 21 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+THURSDAY at Tiffany´s The Club,21-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 2x12€,12€,Jue. 21 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+THURSDAY at Tiffany´s The Club,21-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 3x15€,15€,Jue. 21 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+TREMENDO MAMONEO,21-03-2024,00:00,05:00,Copérnico The Club,Entrada anticipada,15€,Jue. 21 Marzo 2024,Copernico,Arreglado,"Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",40.43525,-3.71368
+TREMENDO MAMONEO,21-03-2024,00:00,05:00,Copérnico The Club,Entrada con 2 consumiciones,20€,Jue. 21 Marzo 2024,Copernico,Arreglado,"Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",40.43525,-3.71368
+FITZ x GUAYNAA,21-03-2024,00:00,06:00,Fitz Club,2x20€,20€,Jue. 21 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+FITZ x GUAYNAA,21-03-2024,00:00,06:00,Fitz Club,2X30€,30€,Jue. 21 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+FITZ x GUAYNAA,21-03-2024,00:00,06:00,Fitz Club,Lista gratis,,Jue. 21 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+FITZ x GUAYNAA,21-03-2024,00:00,06:00,Fitz Club,TAQUILLA,20€,Jue. 21 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+OH MY CLUB MONARCHIE,21-03-2024,00:00,06:00,Oh My Club,2 consumiciones x 20€*,20€,Jue. 21 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+JUEVES MON METE TU BOTELLA,21-03-2024,00:00,06:00,Sala MON,ENTRADA CON 2 COPAS,15€,Jue. 21 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+JUEVES MON METE TU BOTELLA,21-03-2024,00:00,06:00,Sala MON,ENTRADA METE TU BOTELLA,15€,Jue. 21 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+JUEVES MON METE TU BOTELLA,21-03-2024,00:00,06:00,Sala MON,ENTRADA CON 2 COPAS 20€,20€,Jue. 21 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+EXXCLUSIVE ROOM,21-03-2024,00:00,05:30,OPIUM Madrid,General Admission,20€,Jue. 21 Marzo 2024,Opium Madrid,Arreglado,"Calle de José Abascal, 56, 28003 Madrid (Madrid), España",40.43792,-3.69212
+Jueves VANDIDO,21-03-2024,00:00,06:00,VANDIDO,1 x 20€,20€,Jue. 21 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+Jueves VANDIDO,21-03-2024,00:00,06:00,VANDIDO,Lista,,Jue. 21 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+GOSSIPOLY FEST by GOSSIP,21-03-2024,00:00,06:00,Gossip Party,ENTRADA 1 COPA,15€,Jue. 21 Marzo 2024,Lab theCLUB,Arreglado,"Estación de Chamartín Planta Ático, 28036 Madrid, España",40.4713837,-3.6823609
+GOSSIPOLY FEST by GOSSIP,21-03-2024,00:00,06:00,Gossip Party,ENTRADA 2 COPAS,20€,Jue. 21 Marzo 2024,Lab theCLUB,Arreglado,"Estación de Chamartín Planta Ático, 28036 Madrid, España",40.4713837,-3.6823609
+GOSSIPOLY FEST by GOSSIP,21-03-2024,00:00,06:00,Gossip Party,ENTRADA 2 COPAS,25€,Jue. 21 Marzo 2024,Lab theCLUB,Arreglado,"Estación de Chamartín Planta Ático, 28036 Madrid, España",40.4713837,-3.6823609
+JALEITO BY BONDED CLUB,22-03-2024,20:00,00:00,BONDED CLUB,Lista Gratis,Gratis,Vie. 22 Marzo 2024,BONDED CLUB,Casual,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+LUK event,22-03-2024,21:00,00:30,BAO BAO,LUK BEER,10€,Vie. 22 Marzo 2024,BaoBao,Casual,"Calle de Guzmán el Bueno, 98, 28003 Madrid (Madrid), España",40.44155,-3.71239
+LUK event,22-03-2024,21:00,00:30,BAO BAO,LUK BEER,12€,Vie. 22 Marzo 2024,BaoBao,Casual,"Calle de Guzmán el Bueno, 98, 28003 Madrid (Madrid), España",40.44155,-3.71239
+LUK event,22-03-2024,21:00,00:30,BAO BAO,LUK BEER+COPA,15€,Vie. 22 Marzo 2024,BaoBao,Casual,"Calle de Guzmán el Bueno, 98, 28003 Madrid (Madrid), España",40.44155,-3.71239
+LA TRIBU,22-03-2024,22:00,05:00,La Reserva,ENTRADA GOLD,12€,Vie. 22 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+LA TRIBU,22-03-2024,22:00,05:00,La Reserva,ENTRADA PLATINUM,20€,Vie. 22 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+MARVEL MADRID - ENTRADAS VIERNES,22-03-2024,23:30,06:00,DISCOTECA MARVEL,Entrada + 2 copas Viernes,16€,Vie. 22 Marzo 2024,MARVEL MADRID,Casual,"C. de Joaquín Costa, 27, 28002 Madrid, España",40.446191,-3.6865742
+MARVEL MADRID - ENTRADAS VIERNES,22-03-2024,23:30,06:00,DISCOTECA MARVEL,Listas Viernes - Discoteca Marvel Madrid,Gratis,Vie. 22 Marzo 2024,MARVEL MADRID,Casual,"C. de Joaquín Costa, 27, 28002 Madrid, España",40.446191,-3.6865742
+VIERNES+18🐘,22-03-2024,23:45,06:00,KUMARAH,Entrada 1 consumición,12€,Vie. 22 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+VIERNES+18🐘,22-03-2024,23:45,06:00,KUMARAH,Promo 2x15€🚨🚨‼️,15€,Vie. 22 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+VIERNES+18🐘,22-03-2024,23:45,06:00,KUMARAH,Entrada 2 consumiciones,18€,Vie. 22 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+VIERNES,22-03-2024,23:45,06:00,Nazca Club,Entrada + 2 copas Viernes,16€,Vie. 22 Marzo 2024,MARVEL MADRID,Casual,"C. de Joaquín Costa, 27, 28002 Madrid, España",40.446191,-3.6865742
+VIERNES,22-03-2024,23:45,06:00,Nazca Club,Listas Viernes - Discoteca Marvel Madrid,Gratis,Vie. 22 Marzo 2024,MARVEL MADRID,Casual,"C. de Joaquín Costa, 27, 28002 Madrid, España",40.446191,-3.6865742
+VIERNES TEATRO BARCELO,22-03-2024,00:00,06:00,Teatro Barceló,ACCESO RÁPIDO,35€,Vie. 22 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+VIERNES TEATRO BARCELO,22-03-2024,00:00,06:00,Teatro Barceló,Gratis hasta la 01H o completar cupo. DESPUÉS 1x25€ O 2x35€,Gratis,Vie. 22 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+VIERNES TEATRO BARCELO,22-03-2024,00:00,06:00,Teatro Barceló,ENTRADA PRIORITARIA Precio 15€ 1 copa o 2 copas 30€ desde las 00:00 hasta la 01:00 AM,,Vie. 22 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+FRIDAY in the future,22-03-2024,00:00,06:00,Jowke Club,Fast Pass 2x25,25€,Vie. 22 Marzo 2024,Jowke Club,Casual,"Avenida de San Martín de Valdeiglesias, 22, 28922 Alcorcón (Madrid), España",40.35748,-3.83485
+Viernes VANDIDO,22-03-2024,00:00,06:00,VANDIDO,Lista,,Vie. 22 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+CHANGO,22-03-2024,00:00,06:00,Goose Group,18€ 2 copas hasta la 12:30,18€,Vie. 22 Marzo 2024,Goose,Casual,"Calle de Covarrubias, 42, 28010 Madrid (Madrid), España",40.43159,-3.69814
+CHANGO,22-03-2024,00:00,06:00,Goose Group,20€ 2 copas hasta la 1,20€,Vie. 22 Marzo 2024,Goose,Casual,"Calle de Covarrubias, 42, 28010 Madrid (Madrid), España",40.43159,-3.69814
+CHANGO,22-03-2024,00:00,06:00,Goose Group,25€ 2 copas hasta la 1,25€,Vie. 22 Marzo 2024,Goose,Casual,"Calle de Covarrubias, 42, 28010 Madrid (Madrid), España",40.43159,-3.69814
+CHANGO,22-03-2024,00:00,06:00,Goose Group,Chicas Gratis hasta las 12:30,Gratis,Vie. 22 Marzo 2024,Goose,Casual,"Calle de Covarrubias, 42, 28010 Madrid (Madrid), España",40.43159,-3.69814
+MAU MAU - FRI.,22-03-2024,00:00,06:00,MAU MAU Madrid,LISTAS CHICAS GRATIS HASTA 01:00,Gratis,Vie. 22 Marzo 2024,MAU MAU,Casual,"Calle del Padre Damián, 23, 28036 Madrid (Madrid), España",40.45818,-3.68578
+MAU MAU - FRI.,22-03-2024,00:00,06:00,MAU MAU Madrid,Listas - Consumiciones,,Vie. 22 Marzo 2024,MAU MAU,Casual,"Calle del Padre Damián, 23, 28036 Madrid (Madrid), España",40.45818,-3.68578
+MÜZA x Oh My Club,22-03-2024,00:00,06:00,Oh My Club,FIRTS RELEASE,15€,Vie. 22 Marzo 2024,Oh My Club,Casual,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+MÜZA x Oh My Club,22-03-2024,00:00,06:00,Oh My Club,1 COPA 20€,20€,Vie. 22 Marzo 2024,Oh My Club,Casual,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+MÜZA x Oh My Club,22-03-2024,00:00,06:00,Oh My Club,2 COPAS 25,25€,Vie. 22 Marzo 2024,Oh My Club,Casual,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+REGGAETON WEEKEND,22-03-2024,00:00,06:00,EPOKA THE CLUB,Entrada 1,10€,Vie. 22 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+REGGAETON WEEKEND,22-03-2024,00:00,06:00,EPOKA THE CLUB,Entrada 2,12€,Vie. 22 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+REGGAETON WEEKEND,22-03-2024,00:00,06:00,EPOKA THE CLUB,Entrada 3,16€,Vie. 22 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+REGGAETON WEEKEND,22-03-2024,00:00,06:00,EPOKA THE CLUB,Entrada,18€,Vie. 22 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+PURO COPER,22-03-2024,00:00,06:00,Copérnico The Club,Entrada anticipada,20€,Vie. 22 Marzo 2024,Copernico,Arreglado,"Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",40.43525,-3.71368
+PURO COPER,22-03-2024,00:00,06:00,Copérnico The Club,Entradas anticipadas,25€,Vie. 22 Marzo 2024,Copernico,Arreglado,"Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",40.43525,-3.71368
+Viernes Fitz,22-03-2024,00:00,06:00,Fitz Club,Lista chicas gratis,Gratis,Vie. 22 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Viernes Fitz,22-03-2024,00:00,06:00,Fitz Club,Lista 1x15€,15€,Vie. 22 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Viernes Fitz,22-03-2024,00:00,06:00,Fitz Club,Lista 1x25€,25€,Vie. 22 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Viernes Fitz,22-03-2024,00:00,06:00,Fitz Club,Listas Acceso General,,Vie. 22 Marzo 2024,Fitz Club,Casual,"C. de la Princesa, 1, 28008 Madrid, España",40.4246126,-3.7120348
+Atta,22-03-2024,00:00,06:00,Atta Madrid,Entrada anticipada 25€ (dos copas antes de la 1;30),25€,Vie. 22 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,22-03-2024,00:00,06:00,Atta Madrid,ENTRADA 35€ (dos copas toda la noche ),35€,Vie. 22 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,22-03-2024,00:00,06:00,Atta Madrid,LISTA GRATIS CHICAS (antes de la 1:30),Gratis,Vie. 22 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,22-03-2024,00:00,06:00,Atta Madrid,QR CHICOS PAGO EN PUERTA,,Vie. 22 Marzo 2024,Atta Club,Arreglado,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+LA PROJECT,22-03-2024,00:00,06:00,Sala La Riviera,Entrada PROMOCIONAL 2x20,20€,Vie. 22 Marzo 2024,Sala La Riviera,Casual,"Paseo Bajo de la Virgen del Puerto, 28005 Madrid (Madrid), España",40.41173,-3.72224
+LA PROJECT,22-03-2024,00:00,06:00,Sala La Riviera,Entrada 2x25,25€,Vie. 22 Marzo 2024,Sala La Riviera,Casual,"Paseo Bajo de la Virgen del Puerto, 28005 Madrid (Madrid), España",40.41173,-3.72224
+PANDA VIERNES,22-03-2024,00:00,06:00,PANDA CLUB,1 x 20€,20€,Vie. 22 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA VIERNES,22-03-2024,00:00,06:00,PANDA CLUB,2 x 30€,30€,Vie. 22 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA VIERNES,22-03-2024,00:00,06:00,PANDA CLUB,GRATIS,Gratis,Vie. 22 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA VIERNES,22-03-2024,00:00,06:00,PANDA CLUB,TAQUILLA,,Vie. 22 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+Viernes TOY ROOM,22-03-2024,00:00,06:00,Toy Room Madrid,Entrada 1x15 hasta las 3 am,15€,Vie. 22 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Viernes TOY ROOM,22-03-2024,00:00,06:00,Toy Room Madrid,Entrada 2x20 hasta la 1 am,20€,Vie. 22 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Viernes TOY ROOM,22-03-2024,00:00,06:00,Toy Room Madrid,Entrada 2X25 hasta las 3 am,25€,Vie. 22 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Viernes TOY ROOM,22-03-2024,00:00,06:00,Toy Room Madrid,Listas gratis chicas hasta la 1:00 am,,Vie. 22 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Viernes TOY ROOM,22-03-2024,00:00,06:00,Toy Room Madrid,Early Birds Guestlist,Gratis,Vie. 22 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+JOLGORIO,22-03-2024,00:00,06:00,OPIUM Madrid,General Admission,20€,Vie. 22 Marzo 2024,Opium Madrid,Arreglado,"Calle de José Abascal, 56, 28003 Madrid (Madrid), España",40.43792,-3.69212
+VIERNES MON,22-03-2024,00:00,06:00,Sala MON,Entrada con una consumición,15€,Vie. 22 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+VIERNES MON,22-03-2024,00:00,06:00,Sala MON,PROMO Entrada 2 consumiciones,15€,Vie. 22 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+VIERNES MON,22-03-2024,00:00,06:00,Sala MON,Entrada 2 consumiciones,20€,Vie. 22 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+FRIDAYS at Tiffany´s The Club,22-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1X15€,15€,Vie. 22 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+FRIDAYS at Tiffany´s The Club,22-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1x20€,20€,Vie. 22 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+FRIDAYS at Tiffany´s The Club,22-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 2x20€,20€,Vie. 22 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+BONDED CLUB,22-03-2024,00:00,06:00,BONDED CLUB,Lista Gratis,Gratis,Vie. 22 Marzo 2024,BONDED CLUB,Casual,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+Viernes Benz,22-03-2024,00:00,06:00,LIBERATA,ANTICIPADA 1x15,15€,Vie. 22 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+Viernes Benz,22-03-2024,00:00,06:00,LIBERATA,ANTICIPADA 2x20,20€,Vie. 22 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+Viernes Benz,22-03-2024,00:00,06:00,LIBERATA,QRS CHICAS GRATIS,Gratis,Vie. 22 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+LA BUENA ÉPOCA🐘//Sesión de tarde,23-03-2024,17:00,23:00,KUMARAH,Entrada 1 consumición,15€,Sáb. 23 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+LA BUENA ÉPOCA🐘//Sesión de tarde,23-03-2024,17:00,23:00,KUMARAH,Entrada 1 consumición,18€,Sáb. 23 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+SAFARI,23-03-2024,22:00,05:00,La Reserva,ENTRADA GOLD,12€,Sáb. 23 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+SAFARI,23-03-2024,22:00,05:00,La Reserva,ENTRADA PLATINUM,20€,Sáb. 23 Marzo 2024,La Reserva ,Casual,"Calle Príncipe, 12, 28012 Madrid (Madrid), España",40.4158,-3.70041
+MARVEL MADRID - ENTRADAS SÁBADO,23-03-2024,23:30,06:00,DISCOTECA MARVEL,Entrada + 2 copas Sábado,18€,Sáb. 23 Marzo 2024,MARVEL MADRID,Casual,"C. de Joaquín Costa, 27, 28002 Madrid, España",40.446191,-3.6865742
+MARVEL MADRID - ENTRADAS SÁBADO,23-03-2024,23:30,06:00,DISCOTECA MARVEL,Listas Sábados - Marvel Madrid,Gratis,Sáb. 23 Marzo 2024,MARVEL MADRID,Casual,"C. de Joaquín Costa, 27, 28002 Madrid, España",40.446191,-3.6865742
+SABADO,23-03-2024,23:45,06:00,Nazca Club,Entrada General,20€,Sáb. 23 Marzo 2024,Nazca Club,Casual,"C. de Orense, 24, 28020 Madrid, España",40.4515037,-3.6943962
+SÁBADO +21🐘,23-03-2024,23:45,06:00,KUMARAH,ENTRADA GRATIS 🚹,0€,Sáb. 23 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+SÁBADO +21🐘,23-03-2024,23:45,06:00,KUMARAH,Entrada gratis 🚺,0€,Sáb. 23 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+SÁBADO +21🐘,23-03-2024,23:45,06:00,KUMARAH,Entrada 1 consumición,12€,Sáb. 23 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+SÁBADO +21🐘,23-03-2024,23:45,06:00,KUMARAH,PROMO 2x15€🚨🚨‼️,15€,Sáb. 23 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+SÁBADO +21🐘,23-03-2024,23:45,06:00,KUMARAH,Entrada 2 consumiciones,18€,Sáb. 23 Marzo 2024,Kumarah ,Arreglado,"Calle Sofía, 3, 28232 Las Rozas de Madrid (Madrid), España",40.49968,-3.89308
+SATURDAYS at Tiffany´s The Club,23-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1X15€,15€,Sáb. 23 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+SATURDAYS at Tiffany´s The Club,23-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 1x20€,20€,Sáb. 23 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+SATURDAYS at Tiffany´s The Club,23-03-2024,00:00,06:00,TIFFANY'S THE CLUB,ENTRADA 2x20€,20€,Sáb. 23 Marzo 2024,Tiffany's The Club,Casual,"Av. del Dr. Arce, 10, 28002 Madrid, España",40.4455806,-3.6833062
+SATURDAY in the future,23-03-2024,00:00,06:00,Jowke Club,Fast Pass 2x25,25€,Sáb. 23 Marzo 2024,Jowke Club,Casual,"Avenida de San Martín de Valdeiglesias, 22, 28922 Alcorcón (Madrid), España",40.35748,-3.83485
+BONDED CLUB,23-03-2024,00:00,06:00,BONDED CLUB,GUESTLIST,,Sáb. 23 Marzo 2024,BONDED CLUB,Casual,"C. de Miguel Ángel, 9, 28010 Madrid, España",40.4348556,-3.6914767
+SÁBADO TEATRO BARCELO,23-03-2024,00:00,06:00,Teatro Barceló,ACCESO RAPIDO,35€,Sáb. 23 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+SÁBADO TEATRO BARCELO,23-03-2024,00:00,06:00,Teatro Barceló,Gratis hasta la 01H o completar cupo. DESPUÉS 1x25€ O 2x35€,Gratis,Sáb. 23 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+SÁBADO TEATRO BARCELO,23-03-2024,00:00,06:00,Teatro Barceló,ENTRADA PRIORITARIA Precio 15€ 1 copa o 2 copas 30€ desde las 00:00 hasta la 01:00 AM,,Sáb. 23 Marzo 2024,Teatro Barcelo,Media etiqueta,"Calle de Barceló, 11, 28004 Madrid (Madrid), España",40.4269,-3.69978
+SABADO MON,23-03-2024,00:00,06:00,Sala MON,PROMO Entrada 2 consumiciones,15€,Sáb. 23 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+SABADO MON,23-03-2024,00:00,06:00,Sala MON,Promo entrada 1 consumicion,15€,Sáb. 23 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+SABADO MON,23-03-2024,00:00,06:00,Sala MON,Entrada 2 consumiciones,20€,Sáb. 23 Marzo 2024,Sala Mon,Casual,"C. de Hilarión Eslava, 36, 28015 Madrid, España",40.4358349,-3.71652
+Sábado VANDIDO,23-03-2024,00:00,06:00,VANDIDO,Lista,,Sáb. 23 Marzo 2024,Vandido,Casual,"Calle de Goya, 79, 28001 Madrid (Madrid), España",40.42509,-3.67817
+Sábado Liberata,23-03-2024,00:00,06:00,LIBERATA,PROMO 1x12,12€,Sáb. 23 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+Sábado Liberata,23-03-2024,00:00,06:00,LIBERATA,ANTICIPADA 1x15,15€,Sáb. 23 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+Sábado Liberata,23-03-2024,00:00,06:00,LIBERATA,ANTICIPADA 2x20,20€,Sáb. 23 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+Sábado Liberata,23-03-2024,00:00,06:00,LIBERATA,QRS CHICAS GRATIS,Gratis,Sáb. 23 Marzo 2024,LIBERATA,Arreglado,"Avenida de Alberto Alcocer, 43, 28016 Madrid (Madrid), España",40.4588,-3.68013
+Sábado TOY ROOM,23-03-2024,00:00,06:00,Toy Room Madrid,Entrada 1x15 hasta las 3 am,15€,Sáb. 23 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Sábado TOY ROOM,23-03-2024,00:00,06:00,Toy Room Madrid,Entrada 2x20 de hasta la 1 am,20€,Sáb. 23 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Sábado TOY ROOM,23-03-2024,00:00,06:00,Toy Room Madrid,Entrada 2x25 hasta las 3 am,25€,Sáb. 23 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Sábado TOY ROOM,23-03-2024,00:00,06:00,Toy Room Madrid,Listas chicas gratis hasta la 1:00 am,,Sáb. 23 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+Sábado TOY ROOM,23-03-2024,00:00,06:00,Toy Room Madrid,Early Birds Guestlist,Gratis,Sáb. 23 Marzo 2024,Toy Room Madrid,Casual,"Calle de Arlabán, 7, 28014 Madrid (Madrid), España",40.41708,-3.69882
+TRAVIEXA X OH MY CLUB,23-03-2024,00:00,06:00,Oh My Club,2x20,20€,Sáb. 23 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+TRAVIEXA X OH MY CLUB,23-03-2024,00:00,06:00,Oh My Club,2 COPAS 25,25€,Sáb. 23 Marzo 2024,Oh My Club,Arreglado,"C. de Rosario Pino, 14, 28020 Madrid, España",40.4626121,-3.6930652
+PANDA SABADO,23-03-2024,00:00,06:00,PANDA CLUB,1 x 20€,20€,Sáb. 23 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA SABADO,23-03-2024,00:00,06:00,PANDA CLUB,2 x 30€,30€,Sáb. 23 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA SABADO,23-03-2024,00:00,06:00,PANDA CLUB,GRATIS,Gratis,Sáb. 23 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PANDA SABADO,23-03-2024,00:00,06:00,PANDA CLUB,TAQUILLA,,Sáb. 23 Marzo 2024,Panda,Casual,"Calle de Hernani, 75, 28020 Madrid (Madrid), España",40.44814,-3.696
+PURO COPER,23-03-2024,00:00,06:00,Copérnico The Club,Entrada anticipada,20€,Sáb. 23 Marzo 2024,Copernico,Arreglado,"Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",40.43525,-3.71368
+PURO COPER,23-03-2024,00:00,06:00,Copérnico The Club,ENTRADA ANTICIPADA,25€,Sáb. 23 Marzo 2024,Copernico,Arreglado,"Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",40.43525,-3.71368
+Atta,23-03-2024,00:00,06:00,Atta Madrid,ENTRADA 25 € (dos copas antes de la 1:30),25€,Sáb. 23 Marzo 2024,Atta Club,Media etiqueta,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,23-03-2024,00:00,06:00,Atta Madrid,ENTRADA 35€ (dos copas toda la noche ),35€,Sáb. 23 Marzo 2024,Atta Club,Media etiqueta,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,23-03-2024,00:00,06:00,Atta Madrid,QR CHICAS GRATIS (antes de la 1:30),Gratis,Sáb. 23 Marzo 2024,Atta Club,Media etiqueta,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+Atta,23-03-2024,00:00,06:00,Atta Madrid,QR Chicos 20€ con 1 consumición y 30€ con dos consumiciones,,Sáb. 23 Marzo 2024,Atta Club,Media etiqueta,"Calle de Génova, 28, 28004 Madrid, España",40.425436,-3.6910622
+WE LOVE EPOKA,23-03-2024,00:00,06:00,EPOKA THE CLUB,Entrada promo (limitadas),6€,Sáb. 23 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+WE LOVE EPOKA,23-03-2024,00:00,06:00,EPOKA THE CLUB,Entrada,8€,Sáb. 23 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+WE LOVE EPOKA,23-03-2024,00:00,06:00,EPOKA THE CLUB,Entrada 1,10€,Sáb. 23 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+WE LOVE EPOKA,23-03-2024,00:00,06:00,EPOKA THE CLUB,Entrada 2,12€,Sáb. 23 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+WE LOVE EPOKA,23-03-2024,00:00,06:00,EPOKA THE CLUB,Entrada 3,15€,Sáb. 23 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+WE LOVE EPOKA,23-03-2024,00:00,06:00,EPOKA THE CLUB,Entrada 3,15€,Sáb. 23 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+WE LOVE EPOKA,23-03-2024,00:00,06:00,EPOKA THE CLUB,Entrada,18€,Sáb. 23 Marzo 2024,Epoka the club,Casual,"Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",40.43793,-3.7175
+MAU MAU - FRI.,23-03-2024,00:00,06:00,MAU MAU Madrid,LISTAS CHICAS GRATIS HASTA 01:00,Gratis,Sáb. 23 Marzo 2024,MAU MAU,Casual,"Calle del Padre Damián, 23, 28036 Madrid (Madrid), España",40.45818,-3.68578
+MAU MAU - FRI.,23-03-2024,00:00,06:00,MAU MAU Madrid,Listas - Consumiciones,,Sáb. 23 Marzo 2024,MAU MAU,Casual,"Calle del Padre Damián, 23, 28036 Madrid (Madrid), España",40.45818,-3.68578

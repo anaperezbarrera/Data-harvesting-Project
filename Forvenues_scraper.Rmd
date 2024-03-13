@@ -1,6 +1,6 @@
 ---
-title: "Fourvenues_scraper"
-author: "Laura Martinez"
+title: "FourVenues Scraper"
+author: "Laura Martinez & Ana Pérez"
 date: "2024-03-13"
 output: html_document
 runtime: shiny
@@ -16,7 +16,7 @@ text-align: justify}
 knitr::opts_chunk$set(message=FALSE, warning=FALSE, knitr.purl.inline = TRUE)
 ```
 
-# Fourvenues page scraper
+## Fourvenues page scraper
 
 This project was born from the motivation of helping other youngsters that might be doubtful of which one can be their best option for partying in Madrid, and since there is a webpage ([Fourvenues](https://www.fourvenues.com/es/discotecas-madrid)) that concentrates the sale of tickets of the majority of events and clubs in Madrid, we thought it was the best option for getting our data.
 
@@ -33,6 +33,7 @@ library(RSelenium)
 #Load the API libraries
 library(googleway)
 library(jsonlite)
+library(dotenv)
 
 # Other libraries
 library(devtools)
@@ -43,6 +44,7 @@ library(leaflet)
 library(lubridate)
 library(magrittr)
 library(OpenStreetMap)
+library(plotly)
 library(readr)
 library(readxl)
 library(rvest)
@@ -525,4 +527,558 @@ discotecas <- discotecas %>%
   relocate(avg_price, .after = place)
 
 discotecas$avg_price<- gsub("\\..*", "", discotecas$avg_price)
+discotecas$avg_price <- as.numeric(discotecas$avg_price)
+```
+
+## Google Maps API
+
+The objective of this section is to gather additional information about each club using the Google Maps API. More concretely, we aim to retrieve details such as the rating, the number of reviews, and the typology of each place. The ultimate goal is to visualize these places in a map using these variables.
+
+We noticed that the denomination of certain places in our dataframe did not exactly match the one recognized by the Google Maps API. Consequently, the API couldn't identify these places, resulting in missing values. To address this issue, we decided to adjust the names (within the "place" column) in our dataset to ensure that all places were correctly identified, thereby reducing the amount of missing values.
+
+### Recoding of 'place' column
+
+```{r}
+discotecas$place <- as.character(discotecas$place)
+discotecas$place <- trimws(discotecas$place)
+
+discotecas$place[discotecas$place == "La Reserva"] <- "La Reserva Club"
+discotecas$place[discotecas$place == "Nazca Club"] <- "Sala Nazca Madrid"
+discotecas$place[discotecas$place == "Copernico"] <- "Copérnico The Club"
+discotecas$place[discotecas$place == "Dos passos"] <- "Restaurante Dos Passos"
+discotecas$place[discotecas$place == "THE BASSEMENT"] <- "The Bassement Club"
+discotecas$place[discotecas$place == "Av.Felipe II, 16, Goya Madrid"] <- "Vyta Club"
+discotecas$place[discotecas$place == "Posh Club"] <- "Posh Madrid"
+discotecas$place[discotecas$place == "EPOKA"] <- "Epoka the club"
+discotecas$place[discotecas$place == "LA SOSPECHOSA"] <- "La Sospechosa Club"
+discotecas$place[discotecas$place == "Posh Club"] <- "Posh Club"
+discotecas$place[discotecas$place == "Marieta"] <- "Marieta Brunch"
+discotecas$place[discotecas$place == "Meneo"] <- "Meneo Ponzano"
+discotecas$place[discotecas$place == "BaoBao"] <- "BaoBao Madrid Discoteca"
+discotecas$place[discotecas$place == "Kumarah"] <- "Kumarah Club"
+discotecas$place[discotecas$place == "Goose"] <- "Changó Club (Peral´s temple)"
+discotecas$place[discotecas$place == "SNOZONE XANADU"] <- "Jowke Club"
+discotecas$place[discotecas$place == "VANITY"] <- "Vanity madrid"
+discotecas$place[discotecas$place == "SLVJ"] <- "SLVJ Madrid Velazquez"
+discotecas$place[discotecas$place == "Bardot"] <- "Bardot Madrid"
+discotecas$place[discotecas$place == "Panda"] <- "Panda Club Madrid"
+discotecas$place[discotecas$place == "MAU MAU"] <- "MAU MAU CLUB"
+discotecas$place[discotecas$place == "Bonded"] <- "BONDED CLUB"
+discotecas$place[discotecas$place == "Wonder"] <- "Wonder Studio Madrid"
+discotecas$place[discotecas$place == "LIBERATA"] <- "Liberata Madrid"
+discotecas$place[discotecas$place == "Bendito"] <- "Bendito Madrid"
+discotecas$place[discotecas$place == "Vandido"] <- "VANDIDO Madrid"
+discotecas$place[discotecas$place == "Sala Mon"] <- "Mon Madrid"
+discotecas$place[discotecas$place == "Fitz Club"] <- "Fitz Club Madrid"
+```
+
+### Connecting to the API
+
+The Google Maps API is a set of tools and services provided by Google that allows developers to integrate various mapping functionalities into their applications and websites. These functionalities include displaying maps, obtaining geographic data, calculating directions and distances, searching for place details, and much more. Here, you can find a step-by-step guide to set your own Google Maps API and replicate this exact project:
+
+1.  **Create a Google Cloud Platform (GCP) Account**: If you don't have one already, you need to create a Google Cloud Platform account at <https://cloud.google.com/>. You'll need a Google account to sign up. (**Note that:** Google may require you to set up billing information to use their APIs, even if you're using them within the free tier. Follow the instructions provided to set up billing if prompted)
+
+2.  **Create a New Project**: Once you're logged in to your GCP account, navigate to the Google Cloud Console. Then, select an existing project or create a new one and name it. Projects provide a way to organize and manage resources, and **each API usage is associated with a project**.
+
+3.  **Enable the API options:** Once in your project, in the sidebar menu, go to "APIs & Services" \> "Library". Search for "Maps JavaScript API" and enable it. Inside, you will also have to enable "Places ID" and "Geocoding API".
+
+4.  **Get an API Key**: After enabling these options, go to "APIs & Services" \> "Credentials". Click on "Create credentials" and select "API key". Copy and save the generated API key. (**Note that**: this is your personal key to access the Google API services).
+
+5.  **Go back to Rstudio:** In Rstudio, create a *Text file* and write down: **apiKey = YOUR API KEY.** Then, save this file in your working directory as **.env** and read the following lines:
+
+```{r}
+dotenv::load_dot_env()
+apiKey <- Sys.getenv("apiKey")
+```
+
+Now we're all setup! You should be able to make requests to the API from now on:
+
+### Google Place Details using the Place ID
+
+To acquire specific place details using the Google Maps API, each place needs to be uniquely identified. To achieve this, we've developed three distinct functions. These functions facilitate obtaining the Unique Identifier (Place ID) by initially sending a request to the Google Maps API. Subsequently, each function manages detail requests for individual places within its scope.
+
+1.  **Place ID Retrieval**: To access detailed information about a place, we require its unique identifier known as the Place ID. This identifier can be obtained via the Google Geocoding API by submitting a request with the name of the place along with our API key.
+
+2.  **Place Detail Request**: Subsequently, using the acquired Place ID, we will send a request to the Google Places API to retrieve comprehensive details about the specified place. The response from this request will contain the specific information regarding the queried place.
+
+### Place ID and rating
+
+```{r}
+club1 <- "La Reserva Club"
+
+placeid_rating <- function(club1, apiKey) {
+  
+    # Define the URL of the API Google Geocoding
+  url_geocoding <- "https://maps.googleapis.com/maps/api/geocode/json"
+
+  # Define parameters for geocoding request
+  params_geocoding <- list(
+    address = club1,
+    key = apiKey
+    )
+
+  # Make the geocoding request
+  response_geocoding <- GET(url_geocoding, query = params_geocoding)
+
+  # Verify if the request was successful 
+  if (http_type(response_geocoding) == "application/json") {
+    
+    # Parse JSON response
+    json_response_geocoding <- content(response_geocoding, as = "parsed")
+
+    # Extract the Place ID of the first result if it is available.
+    if (length(json_response_geocoding$results) > 0) {
+      place_id <- json_response_geocoding$results[[1]]$place_id
+      
+      # Define the Google Places API URL
+      url_places <- "https://maps.googleapis.com/maps/api/place/details/json"
+
+      # Define the parameters for the rating request
+      params_places <- list(
+        place_id = place_id,
+        key = apiKey,
+        fields = "rating"
+      )
+
+      #Making the request for the rating
+      response_places <- GET(url_places, query = params_places)
+
+      #  Verify if the request was successful 
+      if (http_type(response_places) == "application/json") {
+        # Parse JSON response
+        json_response_places <- content(response_places, as = "parsed")
+
+        # Return the rating of the place if available.
+        if (!is.null(json_response_places$result$rating)) {
+          place_rating <- json_response_places$result$rating
+          return(place_rating)
+        }
+      }
+    }
+  }
+  
+  # If rating could not be obtained, return NA
+  return(NA)
+}
+
+placeid_rating(club1, apiKey)
+```
+
+### Place ID and nº of reviews
+
+```{r}
+placeid_review <- function(club1, apiKey) {
+  
+  url_geocoding <- "https://maps.googleapis.com/maps/api/geocode/json"
+
+  params_geocoding <- list(
+    address = club1,
+    key = apiKey
+  )
+
+  response_geocoding <- GET(url_geocoding, query = params_geocoding)
+
+  if (http_type(response_geocoding) == "application/json") {
+    json_response_geocoding <- content(response_geocoding, as = "parsed")
+
+    if (length(json_response_geocoding$results) > 0) {
+      place_id <- json_response_geocoding$results[[1]]$place_id
+      
+      url_places <- "https://maps.googleapis.com/maps/api/place/details/json"
+
+      params_places <- list(
+        place_id = place_id,
+        key = apiKey,
+        fields = "user_ratings_total"
+      )
+
+      response_places <- GET(url_places, query = params_places)
+
+      if (http_type(response_places) == "application/json") {
+        json_response_places <- content(response_places, as = "parsed")
+
+        if (!is.null(json_response_places$result$user_ratings_total)) {
+          place_review <- json_response_places$result$user_ratings_total
+          return(place_review)
+        }
+      }
+    }
+  }
+  
+  return(NA)
+}
+
+placeid_review(club1, apiKey)
+```
+
+### Place ID and type
+
+```{r}
+placeid_type <- function(club1, apiKey) {
+  
+  url_geocoding <- "https://maps.googleapis.com/maps/api/geocode/json"
+
+  params_geocoding <- list(
+    address = club1,
+    key = apiKey
+  )
+
+  response_geocoding <- GET(url_geocoding, query = params_geocoding)
+
+  if (http_type(response_geocoding) == "application/json") {
+    json_response_geocoding <- content(response_geocoding, as = "parsed")
+
+    if (length(json_response_geocoding$results) > 0) {
+      place_id <- json_response_geocoding$results[[1]]$place_id
+      
+      url_places <- "https://maps.googleapis.com/maps/api/place/details/json"
+
+      params_places <- list(
+        place_id = place_id,
+        key = apiKey,
+        fields = "type"
+      )
+
+      response_places <- GET(url_places, query = params_places)
+
+      if (http_type(response_places) == "application/json") {
+        json_response_places <- content(response_places, as = "parsed")
+
+        if (!is.null(json_response_places$result$type[1])) {
+          place_review <- json_response_places$result$type[1]
+          return(place_review)
+        }
+      }
+    }
+  }
+  
+  # Si no se pudo obtener el rating, devolver NA
+  return(NA)
+}
+
+placeid_type(club1, apiKey)
+```
+
+### Looping: creating the new variables
+
+In this section, we apply our functions on the "place" column of our dataframe to create three different variables that will define the rating, the nº of reviews, and the type of place, respectively for each club. These variables will then be added in our main dataframe to perform the final visualizations.
+
+**Rating variable**
+
+```{r}
+# Create a vector to save the ratings
+ratings <- numeric(length(discotecas$place)) 
+
+# Iterate on each place name and get its rating
+for (i in seq_along(discotecas$place)) { 
+  ratings[i] <- placeid_rating(discotecas$place[i], apiKey)
+}
+
+(as_tibble(ratings))
+
+# Add the variable to the main dataframe
+discotecas <- discotecas %>%
+  mutate(rating = ratings)
+discotecas$rating <- as.numeric(discotecas$rating)
+```
+
+**Number of reviews variable**
+
+```{r}
+reviews <- numeric(length(discotecas$place)) 
+
+for (i in seq_along(discotecas$place)) { 
+  reviews[i] <- placeid_review(discotecas$place[i], apiKey)
+}
+
+(as_tibble(reviews))
+
+discotecas <- discotecas %>%
+  mutate(numreview = reviews)
+discotecas$numreview <- as.numeric(discotecas$numreview)
+```
+
+**Type of place variable**
+
+```{r}
+types <- character(length(discotecas$place)) 
+
+for (i in seq_along(discotecas$place)) { 
+  types[i] <- placeid_type(discotecas$place[i], apiKey)
+}
+
+discotecas$types <- types
+discotecas$types <- sapply(discotecas$types, function(x) paste(unlist(x), collapse = ", "))
+```
+
+## Mapping clubs
+
+As noted before, the ultimate goal of this part is to visualize our variables in a map. For example, what if you want to visualize the highest ranked clubs based on the number of reviews? In the following plot, the intensity of the colors defines whether the club has a lower (light color) or a higher (dark color) rating, whereas the size of the point indicates the number of reviews in Google Maps.
+
+### Rating and number of reviews, by club
+
+```{r}
+# Coordinates for Madrid
+madrid_coords <- c(lat = 40.4168, lng = -3.7038)
+
+# Define color palette based on  'rating' column
+pal <- colorNumeric(palette = "Reds", domain = discotecas$rating)
+
+# Initiate map with Leaflet
+leaflet() |> 
+  setView(lng = madrid_coords["lng"], 
+          lat = madrid_coords["lat"],  
+          zoom = 12) |> 
+  addTiles() |> 
+  addCircles(data = discotecas,  
+             lng = ~lon, 
+             lat = ~lat, 
+             color = ~pal(rating), popup = ~place,   radius = ~sqrt(numreview)*2.5)|> addLegend(pal = pal, values = discotecas$rating, position = "bottomright", title = "Rating")
+```
+
+### Average price, by club
+
+Similarly, we can visualize the average price in the following plot, by club.
+
+```{r}
+#Setting NA's as 0 
+discotecas$avg_price[is.na(discotecas$avg_price)] <- 0
+
+pal <- colorNumeric(palette = "Reds", domain = discotecas$avg_price)
+
+leaflet() |> 
+  setView(lng = madrid_coords["lng"], 
+          lat = madrid_coords["lat"],  
+          zoom = 12) |> 
+  addTiles() |> 
+  addCircles(data = discotecas,  
+             lng = ~lon, 
+             lat = ~lat, 
+             color = ~pal(avg_price), popup = ~place, 
+             radius = ~sqrt(avg_price)*20) |> 
+               
+  addLegend(pal = pal, values = discotecas$avg_price,
+                         position = "bottomright", title = "Price Average") 
+```
+
+## Making a bar chart
+
+Of the number of events each club has this month (for our subset of data)
+
+```{r}
+# Create a data frame with the count of events for each club_name
+event_counts <- discotecas |> 
+  group_by(club_name) |> 
+  summarise(events = n_distinct(event_name)) |> 
+  group_by(events) |> 
+  summarise(num_clubs = n(), club_names = paste(club_name, collapse = ", ")) |> 
+  arrange(desc(events))
+
+event_counts$club_names <- str_wrap(event_counts$club_names, width = 20) 
+
+label_data <- event_counts |> 
+  mutate(label = ifelse(num_clubs > 1, paste(events, "(", num_clubs, " clubs)", sep = ""), as.character(events)))
+
+```
+
+```{r}
+ggplot(event_counts, aes(x = reorder(club_names, -events), 
+                         y = events)) +
+  geom_bar(stat = "identity", fill = "cyan4") +
+  geom_text(data = label_data,
+            aes(label = label), vjust = -0.5, size = 3) +
+  labs(title = "Number of Events per Club",
+       x = "Club Name",
+       y = "Number of Events") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(), 
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 20))
+```
+
+## Weekday events
+
+```{r}
+weekday_events <- discotecas |> 
+  filter(str_detect(full_date, "Lun|Mar\\.|Mié\\.|Jue\\."))
+
+weekday_event_counts <- weekday_events |> 
+  group_by(club_name) |> 
+  summarise(weekday_event_count = n())
+```
+
+```{r}
+ggplotly(
+  ggplot(weekday_event_counts, aes(x = reorder(club_name, -weekday_event_count), y = weekday_event_count, text = paste("Weekday Event Count: ", weekday_event_count))) +
+    geom_bar(stat = "identity", fill = "deeppink3") +
+    labs(title = "Number of Weekday Events per Club",
+         x = "Club Name",
+         y = "Number of Weekday Events") +
+    theme_minimal() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          plot.title = element_text(hjust = 0.5, face = "bold", size = 20)),
+  tooltip = "text"
+)
+```
+
+## Distribution of prices
+
+```{r}
+ggplotly(
+  ggplot(discotecas, aes(x = entry_price, text = paste("Number of events: ", ..count..))) +
+    geom_histogram(binwidth = 5, fill = "cyan4", color = "black") +
+    labs(title = "Distribution of Entry Prices",
+         x = "Entry Price",
+         y = "Frequency") +
+    theme_minimal() +
+    theme(panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          panel.background = element_rect(fill = "transparent"),
+          plot.title = element_text(size = 20, face = "bold", hjust = 0.5),
+          axis.title = element_text(size = 14),
+          axis.text = element_text(size = 12))
+)
+```
+
+## Final map with filters
+
+Let's correct the date format first.
+
+```{r}
+
+discotecas$date <- as.character(discotecas$date)
+discotecas$date <- as.Date(discotecas$date, format = "%Y-%m-%d")
+```
+
+```{r}
+#There cannot be NAs in the variables for the creation of this map
+discotecas$rating[is.na(discotecas$rating)] <- 0
+
+```
+
+```{r, eval=FALSE}
+
+# Define UI for the Shiny app
+ui <- fluidPage(
+  
+  # App title
+  titlePanel("Interactive Map with Filters"),
+  
+  # Sidebar layout with input and output definitions
+  sidebarLayout(
+    
+    # Sidebar panel for inputs
+    sidebarPanel(
+      
+      # Slider for dress_code
+      selectInput("dress_code", "Select Dress Code:",
+                  choices = c("All", unique(discotecas$dress_code))),
+      
+      # Slider for district
+      selectInput("district_name", "Select District:",
+                  choices = c("All", unique(discotecas$district_name))),
+      
+      # Slider for date
+      dateInput("date", "Select Date:", value = unique(discotecas$date)),
+      
+      # Slider for start_time
+      sliderInput("start_time", "Select Start Time (24-hour format):",
+                  min = 0, max = 24, value = c(0, 24)),
+      
+    
+      # Checkbox for free
+      radioButtons("free", "Free Entry:",
+             choices = c("TRUE", "FALSE"),
+             selected = "FALSE"),
+
+      # Slider for entry_price
+      sliderInput("entry_price", "Select Entry Price:",
+                  min = min(discotecas$entry_price), 
+                  max = max(discotecas$entry_price), 
+                  value = c(min(discotecas$entry_price), max(discotecas$entry_price))), 
+      
+     # Slider for rating
+      sliderInput("rating", "Select Rating:",
+                  min = min(discotecas$rating), 
+                  max = max(discotecas$rating), 
+                  value = c(min(discotecas$rating), max(discotecas$rating))),
+      
+      # Slider for types
+      selectInput("types", "Select Type of event:",
+                  choices = c("All", unique(discotecas$types)))
+    ),
+    
+    # Main panel for displaying the leaflet map
+    mainPanel(
+      leafletOutput("map", height = "720px")
+    )
+  )
+)
+
+# Define server logic
+server <- function(input, output) {
+  
+  # Reactive expression to filter data based on inputs
+  filtered_data <- reactive({
+    filtered <- discotecas
+    
+    # Filter by dress_code if it's not "All"
+    if (input$dress_code != "All") {
+      filtered <- filtered |>  filter(dress_code == input$dress_code)
+    }
+    
+    # Filter by district_name if it's not "All"
+    if (input$district_name != "All") {
+      filtered <- filtered |>  filter(district_name == input$district_name)
+    }
+    
+    # Filter by date if it's not NULL
+    if (!is.null(input$date)) {
+      filtered <- filtered |>  filter(date == input$date)
+    }
+    
+    # Filter by start_time
+    filtered <- filtered |>  filter(as.numeric(substr(start_time, 1, 2)) >= input$start_time[1] &
+                                      as.numeric(substr(start_time, 1, 2)) <= input$start_time[2])
+    
+    # Filter by free
+    filtered <- filtered |> filter(free == input$free)
+    
+    # Filter by entry_price
+    filtered <- filtered |> filter(entry_price >= input$entry_price[1] &
+                                      entry_price <= input$entry_price[2])
+    
+    # Filter by rating
+    filtered <- filtered |> filter(rating >= input$rating[1] &
+                                     rating <= input$rating[2])
+    
+    # Filter by types
+    if (input$types != "All") {
+      filtered <- filtered |> filter(types == input$types)
+    }
+    
+    return(filtered)
+  })
+  
+  # Render leaflet map
+  output$map <- renderLeaflet({
+    leaflet() |> 
+      addTiles() |> 
+      addMarkers(data = filtered_data(),
+                 ~lon, ~lat,
+                 popup = ~paste("Club Name: ", club_name,
+                                "<br>Date: ", date,
+                                "<br>Event: ", event_name,
+                                "<br>Start Time: ", start_time,
+                                "<br>End Time: ", end_time,
+                                "<br>Address: ", address))
+  })
+}
+
+# Run the application
+shinyApp(ui = ui, server = server)
+
 ```

@@ -1,0 +1,528 @@
+---
+title: "Fourvenues_scraper"
+author: "Laura Martinez"
+date: "2024-03-13"
+output: html_document
+runtime: shiny
+---
+
+```{=html}
+<style>
+body {
+text-align: justify}
+</style>
+```
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE, warning=FALSE, knitr.purl.inline = TRUE)
+```
+
+# Fourvenues page scraper
+
+This project was born from the motivation of helping other youngsters that might be doubtful of which one can be their best option for partying in Madrid, and since there is a webpage ([Fourvenues](https://www.fourvenues.com/es/discotecas-madrid)) that concentrates the sale of tickets of the majority of events and clubs in Madrid, we thought it was the best option for getting our data.
+
+Thus our scraper will be on the page of Forvenues in which every day new events come up allowing people to buy tickets through their webpage. The web has a main page that displays all the options with different dates and times and once you enter into each event types of tickets come up, allowing the user to choose the entry that best suits their interests.
+
+Without further ado, the process of explaining this page will be displayed below.
+
+## Loading the necessary libraries
+
+```{r}
+# Load the RSelenium library
+library(RSelenium)
+
+#Load the API libraries
+library(googleway)
+library(jsonlite)
+
+# Other libraries
+library(devtools)
+library(dplyr)
+library(ggplot2)
+library(httr)
+library(leaflet)
+library(lubridate)
+library(magrittr)
+library(OpenStreetMap)
+library(readr)
+library(readxl)
+library(rvest)
+library(sf)
+library(shiny)
+library(stringr)
+library(tibble)
+library(tidyr)
+library(vistime)
+library(viridis)
+library(writexl)
+library(xml2)
+```
+
+#### Don´t forget to set your working directory
+
+```{r}
+#setwd("~")
+```
+
+## Start selenium
+
+Now we are ready to start RSelenium, although beforehand it is necessary to install Mozzilla Firefox (as it is the browser this scraper will use) and follow a tutorial to install Java and Selenium on your computer.
+
+Then, once that´s done, we can run this code:
+
+```{r, eval=FALSE}
+# Start the Selenium server with a different port
+remDr <- rsDriver(port = 4586L, browser = "firefox")
+```
+
+Remember to change the number of the port every time you initialize RSelenium. And also note:
+
+**BEWARE**: [At this point adjust the page that has just been opened (Firefox) to be as long as it can be in your screen]{.underline}
+
+#### Set your user-agent (check yours [here](https://www.google.com/search?client=ubuntu&channel=fs&q=what%27s+my+user+agent&ie=utf-8&oe=utf-8))
+
+Now, just in case we can set our user-agent so that the page recognises us as the ones downloading the data
+
+```{r, eval=FALSE}
+set_config(
+  user_agent("Mozilla/5.0 ....)
+)
+```
+
+#### Create a robust url
+
+At this point, before reading the page we wanted to create a robust url for the page that works any time the scraper is run, so that it can always work regardless of the date in which this code is executed:
+
+```{r, eval=FALSE}
+# actual date
+actual_date <- Sys.Date()
+actual_date #We will use the actual date to modify the url
+
+# Extract year and month from the actual_date variable
+year <- substr(actual_date, 1, 4)
+month <- as.integer(substr(actual_date, 6, 7))
+
+
+#Use this function to transform the date extracted from the forvenues page
+updated_url <- function(year, month) {
+  # Convert month to two digits format (e.g., 1 -> 01, 10 -> 10)
+  month_str <- sprintf("%02d", month)
+  
+  # Construct the URL
+  forvenues_url <- paste0("https://www.fourvenues.com/es/discotecas-madrid/events?date=", year, "-", month_str)
+  
+  return(forvenues_url)
+}
+
+
+# Call the function to get the URL
+forvenues_url <- updated_url(year, month)
+
+forvenues_url # final URL
+```
+
+#### Navigate to the page and read it
+
+Now, we are ready to navigate to the web page:
+
+```{r, eval=FALSE}
+# Navigate to the webpage
+remDr$client$navigate(forvenues_url)
+Sys.sleep(2)
+```
+
+**BEWARE - VERY IMPORTANT**: [Here accept the cookies so they don´t obstruct Selenium´s view of the events]{.underline}
+
+Then, we can read the page:
+
+```{r, eval=FALSE}
+# Read the forvenues page
+forvenues <- read_html(forvenues_url)
+```
+
+## Start selecting the info of the main page
+
+After the previous steps are completed, we can now select and start cleaning at the same time the info of the Fourvenues page that we want to extract:
+
+```{r, eval=FALSE}
+# Get the names of each event (valid for any month)
+forvenues |>  
+  xml_find_all("//p[@class='mt-1 sm:mt-3 font-semibold text-xl sm:text-2xl text-black dark:text-white sm:w-full sm:text-clip']") |> 
+  xml_text()
+events <- forvenues |> 
+  xml_find_all("(//div[@class='flex-grow relative p-3']//p)") |>
+  xml_text()
+events <- gsub(".*>(.*)<.*", "\\1", events)
+events <- trimws(gsub("\\\\n", "", events))
+renamed_events <- events
+renamed_events #names of each event displayed
+
+# Get the date of each event
+date <- forvenues |>
+  xml_find_all("(//div[@class='subtitle badge rounded text-xs sm:text-sm bg-secondary text-white p-1 sm:px-2']//h2)")
+date <- gsub("<.*?>", "", date)
+date <- gsub("\\s+", " ", date)
+date
+
+## transform the date with the following functions to dd-mm-yyyy
+month_to_number <- function(month) {
+  months <- c("Ene.", "Feb.", "Mar.", "Abr.", "May.", "Jun.", "Jul.", "Ago.", "Sep.", "Oct.", "Nov.", "Dic.")
+  month_index <- match(month, months)
+  return(sprintf("%02d", month_index))
+}
+
+## Function to convert your date format to desired format
+convert_date_format <- function(date_str) {
+  parts <- strsplit(trimws(date_str), " ")[[1]]
+  day <- sprintf("%02d", as.numeric(gsub("\\D", "", parts[2])))
+  month <- month_to_number(parts[3])
+  year <- as.numeric(format(Sys.Date(), "%Y"))
+  return(paste(day, month, year, sep = "-"))
+}
+
+## Apply the function to each date in the list
+formatted_dates <- sapply(date, convert_date_format)
+extracted_dates <- gsub('.*?"(.*?)"', "\\1", formatted_dates)
+
+## Convert extracted dates to a list
+dates_list <- strsplit(extracted_dates, '" "')
+
+first_elements <- sapply(dates_list, function(x) x[1])
+first_elements <- first_elements[first_elements != ""]
+
+## Remove duplicates
+unique_elements <- unique(first_elements)
+
+repeated_dates <- rep(unique_elements, times = table(first_elements))
+repeated_dates
+
+
+
+# Get the hours of each event
+hours <- forvenues |>
+  xml_find_all("(//div[@class='subtitle text-xs sm:text-sm'])")
+
+## start hour
+start_h <- gsub(".*>(.*?)<.*>(.*?)<.*", "\\1", hours)
+start_h <- trimws(gsub("\\\\n", "", start_h))
+## end hour
+end_h <- gsub(".*<i.*?>.*?</i>(.*?)\\s*</div>.*", "\\1", hours)
+
+
+# Extract club name/location
+club <- forvenues |>
+  xml_find_all("(//div[@class='mt-1 badge rounded text-xs sm:text-sm bg-blue-200/30 dark:bg-blue-700/30 text-blue-600 dark:text-blue-100/50 p-1 px-2 whitespace-nowrap'])")
+club <- gsub(".*<i.*?>(.*?)\\s*</i>(.*?)\\s*</div>.*", "\\2", club)
+
+```
+
+## Clicking on each event
+
+Once the desired information of the main page has been stored in variables we will set our driver to make the clicks on each event later in the loop:
+
+```{r, eval=FALSE}
+# To make the clicks
+driver <- remDr$client
+```
+
+## Defining our csv
+
+Also we want to set our csv in which we want our scraped data to be stored. This csv should be in comma-separated-values format and should contain the same variables as the ones defined later in our tibble located inside the loop:
+
+```{r, eval=FALSE}
+# Remember to change the file path to your own´s
+discotecas <- read_csv2("/.../discotecas_data_harvesting.csv", col_types = cols(start_time = "c", end_time = "c"))
+
+```
+
+## Ready for the Loop!
+
+Now that we have the info on the main page stored in variables we can run the loop that will get the data of each event from the main page and then click on every single one of them and retrieve further specific data on each event.
+
+We have set a sample of 200 events (note [1:200]) which can be removed in case all the events of the page are wanted.
+
+Also! Remember to change the path of the csv again to your own´s in which you have the discotecas csv.
+
+```{r, eval=FALSE}
+# We start here the Loop
+for (event_index in seq_along(renamed_events)[1:200]) { #We limit it to 200 events but this can be changed/removed
+  print(event_index)
+  event_name <- renamed_events[event_index]
+  print(event_name)
+  date <- repeated_dates[event_index]
+  start_time <- start_h[event_index]
+  end_time <- end_h[event_index]
+  club_name <- club[event_index]
+  
+  
+  Sys.sleep(3)
+  
+  #The path for each event is constructed with the name of the event and the date to avoid repeated results
+  event_xpath <- paste0("//div[contains(@onclick, '", event_name, "') and contains(@onclick, '", date, "')]")
+  
+  Sys.sleep(4)
+  
+  #We tell Selenium to click over the event
+  driver$findElement(value = event_xpath)$clickElement()
+  
+  Sys.sleep(3)
+  
+  #scroll down inside the event page
+  event_webElem <- driver$findElement("css", "body")
+  event_webElem$sendKeysToElement(list(key = "down_arrow"))
+  event_webElem$sendKeysToElement(list(key = "down_arrow"))
+  event_webElem$sendKeysToElement(list(key = "down_arrow"))
+  event_webElem$sendKeysToElement(list(key = "down_arrow"))
+  
+  Sys.sleep(3)
+  
+  #Save the page source to extract the info below
+  event_page_source <- driver$getPageSource()[[1]]
+  event_page <- read_html(event_page_source)
+  
+  Sys.sleep(3)
+  
+  # Extract the entry name - (extracts both entries and guest lists)
+  entry_name <-
+    event_page %>%
+    xml_find_all("//div[@class='relative p-3 mt-6 -mx-3
+  bg-opacity-10 sm:rounded  ']//div[@class='text-lg text-primary dark:text-white font-semibold']") %>%
+    xml_text()
+  entry_name <- gsub(".*>(.*?)<.*", "\\1", entry_name)
+  entry_name <- trimws(gsub("\\n", "", entry_name))
+  
+  Sys.sleep(2)
+  
+  # Extract the entry price - (extracts prices for both entries and guest lists)
+  price <- event_page |>
+    xml_find_all("//div[@class='relative p-3 mt-6 -mx-3
+  bg-opacity-10 sm:rounded  ']//div[@class='font-semibold text-lg text-primary dark:text-white whitespace-nowrap px-3']")
+  price <- gsub(".*>(.*?)<.*", "\\1", price)
+  price <- trimws(gsub("\\n", "", price))
+  
+  Sys.sleep(2)
+  
+  # Scrape date from the event (in a different format)
+  full_date <- event_page |>
+    xml_find_all("(//h2[@class='pb-2 subtitle text-secondary dark:text-white text-sm sm:text-lg'])")
+  full_date <- gsub("\\n", "", full_date)
+  full_date <- gsub(".*>(.*?)<.*", "\\1", full_date)
+  full_date <- trimws(gsub("\\n", "", full_date))
+  full_date <- rep(full_date, each = length(entry_name))
+  
+  Sys.sleep(2)
+  
+  #Scrape the dress code of each event
+  dress_code <- event_page %>%
+    xml_find_all("//div[@class='mt-1 badge rounded text-sm bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 p-1 px-2 bg-opacity-50 dark:bg-opacity-50 mb-1' and i[contains(@class, 'far fa-tshirt pr-1')]]")
+  dress_code <- gsub('.*</i>\\s*([^<]+)\\s*</div>.*', '\\1', dress_code, perl = TRUE)
+  dress_code <- sub('.*\\n(\\S.*)', '\\1', dress_code)
+  dress_code <- trimws(dress_code)
+  dress_code <- rep(dress_code, each = length(entry_name))
+  
+  Sys.sleep(2)
+  
+  # Extract the address of the event
+  full_address <- event_page |>
+    xml_find_all("(//div[@class='text-gray-600 dark:text-gray-400']//p)")
+  
+  name <- gsub('<p class="font-semibold">(.*?)</p>.*', "\\1", full_address)[1]
+  name <- rep(name, each = length(entry_name))
+  
+  address <- gsub("<p>(.*?)</p>.*", "\\1", full_address)[2]
+  address <- rep(address, each = length(entry_name))
+  
+  Sys.sleep(2)
+  
+  # Extract the google maps address
+  coordinates <- event_page |>
+    xml_find_all("(//div[@class='text-gray-600 dark:text-gray-400']//div)")
+  
+  coordinates <- gsub(".*query=(.*?)%2C(.*?);.*", "\\1, \\2", coordinates)
+  coordinates
+  
+  latitude <- numeric(length(coordinates))
+  longitude <- numeric(length(coordinates))
+  
+  # Loop through each coordinate string and extract latitude and longitude
+  for (i in seq_along(coordinates)) {
+    match <- gsub(".*?([0-9.-]+), ([0-9.-]+).*", "\\1", coordinates[i])
+    latitude[i] <- as.numeric(match)
+    
+    match <- gsub(".*?([0-9.-]+), ([0-9.-]+).*", "\\2", coordinates[i])
+    longitude[i] <- as.numeric(match)
+  }
+  
+  # Keep only the first latitude and longitude
+  latitude <- rep(latitude[1], each = length(entry_name))
+  longitude <- rep(longitude[1], each = length(entry_name))
+  
+  Sys.sleep(2)
+  
+  
+  # create a tibble with all the previous information
+  event_tibble <- tibble(
+    # poner nombre de variables en vez de nombre
+    event_name = rep(event_name, each = length(entry_name)),
+    date = rep(date, each = length(entry_name)),
+    start_time = as.character(rep(start_time, each = length(entry_name))),
+    end_time = rep(end_time, each = length(entry_name)),
+    club_name = rep(club_name, each = length(entry_name)),
+    entry_name = entry_name,
+    entry_price = price,
+    full_date = full_date,
+    place = name,
+    dress_code = dress_code,
+    address = address,
+    lat = latitude,
+    lon = longitude
+  )
+  
+  #Check the created tibble of each event and then keep on adding rows
+  print(event_tibble)
+  
+  #Add each new event to the tibble discotecas with the rest of events
+  discotecas <- rbind(discotecas, event_tibble)
+  #Add each new event to the csv discotecas with the rest of events
+  write_csv(discotecas, "/Users/.../discotecas_data_harvesting.csv")
+  
+  
+  # go back
+  driver$goBack()
+  Sys.sleep(3)
+  
+  driver$executeScript("window.scrollBy(0, 900)") 
+  
+  # Scroll down on the main page
+  webElem <- driver$findElement("css", "body")
+  webElem$sendKeysToElement(list(key = "down_arrow"))
+  webElem$sendKeysToElement(list(key = "down_arrow"))
+  webElem$sendKeysToElement(list(key = "down_arrow"))
+  webElem$sendKeysToElement(list(key = "down_arrow"))
+  webElem$sendKeysToElement(list(key = "down_arrow"))
+  webElem$sendKeysToElement(list(key = "down_arrow"))
+  webElem$sendKeysToElement(list(key = "down_arrow"))
+  webElem$sendKeysToElement(list(key = "down_arrow"))
+  webElem$sendKeysToElement(list(key = "down_arrow"))
+  webElem$sendKeysToElement(list(key = "down_arrow"))
+}
+```
+
+Empty results are probably because tickets are not available yet or because the only available option are "mesas reservadas"
+
+## Visualise and save the final data
+
+```{r, eval=FALSE}
+#visualise the final tibble
+view(discotecas)
+
+#Set your working directory to save the final results
+setwd("~/Desktop/.../Final")
+
+write_csv(discotecas, "discotecas_tibble.csv") #saved in a new csv (although we already have one)
+
+write_xlsx(discotecas, "discotecas_tibble.xlsx") #saved in an xlsx to keep special characters 
+```
+
+And running this final chunk, the scraping of the Fourvenues page should be finished!
+
+## Recoding of variables
+
+In order to make the visualizations we intend to create, a bit of data processing should be done:
+
+First, we import the shapefile available in the repository and our xlsx resulting from the scraping and we convert the later into a tibble to take care of the format of some of the variables such as "date".
+
+```{r}
+districts <- st_read("Distritos.shp") #read shapefile
+
+districts <- districts |> 
+  select(NOMBRE, geometry) |> 
+  rename(district_name = NOMBRE) #adjust/rename some variables
+
+districts <- st_transform(districts, 4326) #transform the coordinates system
+
+discotecas <- read_excel("discotecas_tibble1.xlsx") #read the xlsx
+
+discotecas <- as_tibble(discotecas) #convert it into a tibble
+```
+
+Also, before we put together the two previous datasets we need to change the format of the date to date format:
+
+```{r}
+discotecas$date <- as.Date(discotecas$date, format = "%d-%m-%Y") #modify the date format for future visualizations
+```
+
+Merge the data to add later the district variable to the discotecas dataset:
+
+```{r}
+discotecas_sf <- st_as_sf(discotecas, coords = c("lon", "lat"), crs = 4326)
+merged_data <- st_join(discotecas_sf, districts, join = st_within)
+discotecas_sf <- NULL
+```
+
+Now merge just the districts to our discotecas dataset:
+
+```{r}
+merged_data_unique <- merged_data |>  
+  distinct(address, .keep_all = TRUE)
+
+discotecas <- left_join(discotecas, 
+                               select(merged_data_unique, 
+                                      address, 
+                                      district_name), 
+                               by = "address")
+```
+
+#### Further cleaning of the data and creation of new variables
+
+In the following chunks our data from the scraper will be further cleaned and modified and the variables for "entry price", "free entry", "price average" and "price range" will be created:
+
+```{r}
+#Replace names of Discotecas that are outside the center of Madrid
+discotecas <- discotecas |> 
+  mutate(district_name = if_else(is.na(district_name), "Afueras", district_name))
+
+#Clean the entry_price variable
+discotecas <- discotecas %>% 
+  mutate(entry_price = as.numeric(str_replace(entry_price, "€", "")),
+         entry_price = ifelse(is.na(entry_price), 0, entry_price))
+
+#Create a free variable: 
+discotecas <- discotecas |> 
+  mutate(free = if_else(entry_price == "Gratis" | entry_price == "0", TRUE, FALSE))
+```
+
+Now let´s also create a price range and a price average:
+
+```{r}
+# Filter out entries with entry_price of 0
+filtered_data <- discotecas |> 
+  filter(entry_price != 0)
+
+# Calculate price range for each club
+price_ranges <- filtered_data |> 
+  group_by(place) |> 
+  summarise(min_price = min(entry_price),
+            max_price = max(entry_price))
+
+# Create a new variable for price range
+discotecas <- left_join(discotecas, price_ranges, by = "place")
+
+# Create price_range variable
+discotecas$price_range <- ifelse(is.na(discotecas$min_price), NA, paste0(discotecas$min_price, "-", discotecas$max_price))
+
+# Remove unnecessary columns
+discotecas <- discotecas |> 
+  select(-min_price, -max_price)
+
+
+#Create the average price
+
+discotecas <- discotecas %>%
+  mutate(avg_price = ifelse(entry_price != 0, entry_price, NA)) %>%
+  group_by(event_name) %>%
+  mutate(avg_price = mean(avg_price, na.rm = TRUE)) %>%
+  ungroup() %>%
+  relocate(avg_price, .after = place)
+
+discotecas$avg_price<- gsub("\\..*", "", discotecas$avg_price)
+```

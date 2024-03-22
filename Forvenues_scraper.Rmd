@@ -433,7 +433,7 @@ In order to make the visualizations we intend to create, a bit of data processin
 
 First, we import the shapefile available in the repository and our xlsx resulting from the scraping and we convert the later into a tibble to take care of the format of some of the variables such as "date".
 
-```{r}
+```{r, eval=FALSE}
 districts <- st_read("Distritos.shp") #read shapefile
 
 districts <- districts |> 
@@ -449,13 +449,13 @@ discotecas <- as_tibble(discotecas) #convert it into a tibble
 
 Also, before we put together the two previous datasets we need to change the format of the date to date format:
 
-```{r}
+```{r, eval=FALSE}
 discotecas$date <- as.Date(discotecas$date, format = "%d-%m-%Y") #modify the date format for future visualizations
 ```
 
 Merge the data to add later the district variable to the discotecas dataset:
 
-```{r}
+```{r, eval=FALSE}
 discotecas_sf <- st_as_sf(discotecas, coords = c("lon", "lat"), crs = 4326)
 merged_data <- st_join(discotecas_sf, districts, join = st_within)
 discotecas_sf <- NULL
@@ -463,7 +463,7 @@ discotecas_sf <- NULL
 
 Now merge just the districts to our discotecas dataset:
 
-```{r}
+```{r, eval=FALSE}
 merged_data_unique <- merged_data |>  
   distinct(address, .keep_all = TRUE)
 
@@ -478,7 +478,7 @@ discotecas <- left_join(discotecas,
 
 In the following chunks our data from the scraper will be further cleaned and modified and the variables for "entry price", "free entry", "price average" and "price range" will be created:
 
-```{r}
+```{r, eval=FALSE}
 #Replace names of Discotecas that are outside the center of Madrid
 discotecas <- discotecas |> 
   mutate(district_name = if_else(is.na(district_name), "Afueras", district_name))
@@ -495,7 +495,7 @@ discotecas <- discotecas |>
 
 Now let´s also create a price range and a price average:
 
-```{r}
+```{r, eval=FALSE}
 # Filter out entries with entry_price of 0
 filtered_data <- discotecas |> 
   filter(entry_price != 0)
@@ -538,7 +538,7 @@ We noticed that the denomination of certain places in our dataframe did not exac
 
 ### Recoding of 'place' column
 
-```{r}
+```{r, eval=FALSE}
 discotecas$place <- as.character(discotecas$place)
 discotecas$place <- trimws(discotecas$place)
 
@@ -586,7 +586,7 @@ The Google Maps API is a set of tools and services provided by Google that allow
 
 5.  **Go back to Rstudio:** In Rstudio, create a *Text file* and write down: **apiKey = YOUR API KEY.** Then, save this file in your working directory as **.env** and read the following lines:
 
-```{r}
+```{r, eval=FALSE}
 dotenv::load_dot_env()
 apiKey <- Sys.getenv("apiKey")
 ```
@@ -603,7 +603,7 @@ To acquire specific place details using the Google Maps API, each place needs to
 
 ### Place ID and rating
 
-```{r}
+```{r, eval=FALSE}
 club1 <- "La Reserva Club"
 
 placeid_rating <- function(club1, apiKey) {
@@ -666,7 +666,7 @@ placeid_rating(club1, apiKey)
 
 ### Place ID and nº of reviews
 
-```{r}
+```{r, eval=FALSE}
 placeid_review <- function(club1, apiKey) {
   
   url_geocoding <- "https://maps.googleapis.com/maps/api/geocode/json"
@@ -713,7 +713,7 @@ placeid_review(club1, apiKey)
 
 ### Place ID and type
 
-```{r}
+```{r, eval=FALSE}
 placeid_type <- function(club1, apiKey) {
   
   url_geocoding <- "https://maps.googleapis.com/maps/api/geocode/json"
@@ -765,7 +765,7 @@ In this section, we apply our functions on the "place" column of our dataframe t
 
 **Rating variable**
 
-```{r}
+```{r, eval=FALSE}
 # Create a vector to save the ratings
 ratings <- numeric(length(discotecas$place)) 
 
@@ -784,7 +784,7 @@ discotecas$rating <- as.numeric(discotecas$rating)
 
 **Number of reviews variable**
 
-```{r}
+```{r, eval=FALSE}
 reviews <- numeric(length(discotecas$place)) 
 
 for (i in seq_along(discotecas$place)) { 
@@ -800,7 +800,7 @@ discotecas$numreview <- as.numeric(discotecas$numreview)
 
 **Type of place variable**
 
-```{r}
+```{r, eval=FALSE}
 types <- character(length(discotecas$place)) 
 
 for (i in seq_along(discotecas$place)) { 
@@ -812,6 +812,10 @@ discotecas$types <- sapply(discotecas$types, function(x) paste(unlist(x), collap
 ```
 
 ## Mapping clubs
+
+```{r}
+discotecas <- read_excel("discotecas.xlsx")
+```
 
 As noted before, the ultimate goal of this part is to visualize our variables in a map. For example, what if you want to visualize the highest ranked clubs based on the number of reviews? In the following plot, the intensity of the colors defines whether the club has a lower (light color) or a higher (dark color) rating, whereas the size of the point indicates the number of reviews in Google Maps.
 
@@ -843,7 +847,7 @@ Similarly, we can visualize the average price in the following plot, by club.
 ```{r}
 #Setting NA's as 0 
 discotecas$avg_price[is.na(discotecas$avg_price)] <- 0
-
+discotecas$avg_price <- as.numeric(discotecas$avg_price)
 pal <- colorNumeric(palette = "Reds", domain = discotecas$avg_price)
 
 leaflet() |> 
@@ -947,13 +951,13 @@ ggplotly(
 
 Let's correct the date format first.
 
-```{r}
+```{r, eval=FALSE}
 
 discotecas$date <- as.character(discotecas$date)
 discotecas$date <- as.Date(discotecas$date, format = "%Y-%m-%d")
 ```
 
-```{r}
+```{r, eval=FALSE}
 #There cannot be NAs in the variables for the creation of this map
 discotecas$rating[is.na(discotecas$rating)] <- 0
 
